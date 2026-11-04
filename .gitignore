@@ -8,6 +8,9 @@
 .trash/
 _trash/
 
+# Автомат backup-ийн лог
+_system/backup/backup.log
+
 # Python, систем
 __pycache__/
 *.pyc
