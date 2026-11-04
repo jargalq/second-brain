@@ -24,4 +24,6 @@ ai-first: true
 | Git-ийн нэр | `jargalq`, зөвхөн энэ repo-д (global биш) |
 | Нэвтрэлт | Git Credential Manager-т хадгалсан `jargalq` бүртгэл |
 
+**Төлөв (2026-11-04):** Анхны push хийгдсэн → https://github.com/jargalq/second-brain (`main`). Дараагийн backup: `git add -A; git commit -m "..."; git push`.
+
 **Буцааж болох эсэх:** Болно. `.git` хавтсыг устгавал vault хуучин төлөвтөө орно. GitHub-ийн repo-г тусад нь устгана.
