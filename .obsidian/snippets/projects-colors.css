@@ -1,0 +1,36 @@
+/* Төслүүдийн өнгө (02-Projects). Хавтасны нэр + доторх файлууд нэг өнгөтэй. */
+
+/* Ажил: хавтасны нэрийг тодруулна */
+.nav-folder-title[data-path^="02-Projects/"] { font-weight: 600; }
+
+/* 🔥 11.20-ны ТЭЗҮ хурал: Зүүн наран, Баруун наран — улбар шар */
+.nav-folder-title[data-path="02-Projects/Ажил/Зүүн наран"],
+.nav-file-title[data-path^="02-Projects/Ажил/Зүүн наран/"] { color: #f57c00; }
+.nav-folder-title[data-path="02-Projects/Ажил/Баруун наран"],
+.nav-file-title[data-path^="02-Projects/Ажил/Баруун наран/"] { color: #e65100; }
+
+/* Захиалгат ажлууд */
+.nav-folder-title[data-path="02-Projects/Ажил/Эрдэнэс критикал минералс"],
+.nav-file-title[data-path^="02-Projects/Ажил/Эрдэнэс критикал минералс/"] { color: #c62828; }
+.nav-folder-title[data-path="02-Projects/Ажил/Тодбум ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Тодбум ХХК/"] { color: #d4a017; }
+.nav-folder-title[data-path="02-Projects/Ажил/Голден погада ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Голден погада ХХК/"] { color: #b8860b; }
+.nav-folder-title[data-path="02-Projects/Ажил/Амьдралын илч ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Амьдралын илч ХХК/"] { color: #2e7d32; }
+.nav-folder-title[data-path="02-Projects/Ажил/Сэрүүн ой ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Сэрүүн ой ХХК/"] { color: #43a047; }
+.nav-folder-title[data-path="02-Projects/Ажил/Зунхуа инси куан ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Зунхуа инси куан ХХК/"] { color: #00838f; }
+.nav-folder-title[data-path="02-Projects/Ажил/Мон минералс трейд энд майнинг ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Мон минералс трейд энд майнинг ХХК/"] { color: #1565c0; }
+.nav-folder-title[data-path="02-Projects/Ажил/Павл бейс ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Павл бейс ХХК/"] { color: #5e35b1; }
+.nav-folder-title[data-path="02-Projects/Ажил/Шүдэн уул ХХК"],
+.nav-file-title[data-path^="02-Projects/Ажил/Шүдэн уул ХХК/"] { color: #6d4c41; }
+
+/* Хувийн, суралцах */
+.nav-folder-title[data-path="02-Projects/Second Brain Season 2"],
+.nav-file-title[data-path^="02-Projects/Second Brain Season 2/"] { color: #8e24aa; }
+.nav-file-title[data-path^="02-Projects/Гачууртын байшин"],
+.nav-file-title[data-path^="02-Projects/Өвлийн аялал"] { color: #ec407a; font-weight: 600; }

@@ -1,0 +1,85 @@
+filters:
+  or:
+    - and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.ext == "md"
+    - and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.hasTag("playbook")
+views:
+  - type: table
+    name: Бүгд
+    filters:
+      and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.ext == "md"
+    order:
+      - file.name
+      - date
+      - confidence
+      - projects
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Өнөөдөр (бодлын сешн)
+    filters:
+      and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.ext == "md"
+        - date == today()
+    order:
+      - file.name
+      - confidence
+      - projects
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 356
+  - type: table
+    name: Төслөөр
+    filters:
+      and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.ext == "md"
+    groupBy:
+      property: projects
+      direction: ASC
+    order:
+      - file.name
+      - date
+      - projects
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: 🌉 Гүүр ойлголтууд
+    filters:
+      and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.ext == "md"
+        - bridge >= 3
+    order:
+      - file.name
+      - bridge
+      - projects
+      - from
+      - topics
+    sort:
+      - property: bridge
+        direction: DESC
+  - type: table
+    name: Хийх аргууд (playbook)
+    filters:
+      and:
+        - file.inFolder("04-Resources/Atomic/knowledge")
+        - file.hasTag("playbook")
+    order:
+      - file.basename
+      - tool
+      - confidence
+      - updated
+    sort:
+      - property: updated
+        direction: DESC

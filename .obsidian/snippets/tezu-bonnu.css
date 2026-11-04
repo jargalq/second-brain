@@ -1,0 +1,19 @@
+/* ТЭЗҮ — улаан */
+.nav-folder-title[data-path$="/1 ТЭЗҮ"],
+.nav-folder-title[data-path*="/1 ТЭЗҮ/"],
+.nav-file-title[data-path*="/1 ТЭЗҮ/"] {
+  color: #e53935;
+}
+.nav-folder-title[data-path$="/1 ТЭЗҮ"] {
+  font-weight: 600;
+}
+
+/* Байгаль орчин — ногоон */
+.nav-folder-title[data-path$="/2 Байгаль орчин"],
+.nav-folder-title[data-path*="/2 Байгаль орчин/"],
+.nav-file-title[data-path*="/2 Байгаль орчин/"] {
+  color: #43a047;
+}
+.nav-folder-title[data-path$="/2 Байгаль орчин"] {
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.inFolder("_system/skills")
+    - file.name == "SKILL"
+formulas:
+  хаана: file.folder
+properties:
+  note.name:
+    displayName: Нэр
+  formula.хаана:
+    displayName: Хаана суусан
+  note.description:
+    displayName: Юунд хэрэгтэй
+views:
+  - type: table
+    name: Бүх skill
+    order:
+      - name
+      - formula.хаана
+      - description

@@ -1,0 +1,107 @@
+filters:
+  and:
+    - file.inFolder("02-Projects/Ажил")
+    - file.hasProperty("баримт")
+properties:
+  file.name:
+    displayName: Баримт
+  note.төсөл:
+    displayName: Төсөл
+  note.шат:
+    displayName: Шат
+  note.баримт:
+    displayName: Баримт
+  note.төлөв:
+    displayName: Төлөв
+  note.гүйцэтгэгч:
+    displayName: Гүйцэтгэгч
+  note.хариуцагч:
+    displayName: Хариуцагч
+  note.эхэлсэн:
+    displayName: Эхэлсэн
+  note.дууссан:
+    displayName: Дууссан
+views:
+  - type: table
+    name: Төслөөр
+    groupBy:
+      property: төсөл
+      direction: ASC
+    order:
+      - file.name
+      - шат
+      - төлөв
+      - гүйцэтгэгч
+      - хариуцагч
+      - эхэлсэн
+      - дууссан
+    sort:
+      - property: file.path
+        direction: ASC
+  - type: table
+    name: Төлөвөөр
+    groupBy:
+      property: төлөв
+      direction: ASC
+    order:
+      - file.name
+      - гүйцэтгэгч
+      - хариуцагч
+      - дууссан
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.path
+        direction: ASC
+  - type: table
+    name: ТЭЗҮ шат
+    filters:
+      and:
+        - file.path.contains("/1 ТЭЗҮ/")
+    groupBy:
+      property: төсөл
+      direction: ASC
+    order:
+      - file.name
+      - төлөв
+      - гүйцэтгэгч
+      - хариуцагч
+      - эхэлсэн
+      - дууссан
+    sort:
+      - property: file.path
+        direction: ASC
+  - type: table
+    name: Байгаль орчин шат
+    filters:
+      and:
+        - file.path.contains("/2 Байгаль орчин/")
+    groupBy:
+      property: төсөл
+      direction: ASC
+    order:
+      - file.name
+      - төлөв
+      - гүйцэтгэгч
+      - хариуцагч
+      - эхэлсэн
+      - дууссан
+    sort:
+      - property: file.path
+        direction: ASC
+  - type: table
+    name: Грийтвишн гүйцэтгэх
+    filters:
+      and:
+        - note.гүйцэтгэгч.contains("Грийтвишн")
+    groupBy:
+      property: гүйцэтгэгч
+      direction: ASC
+    order:
+      - file.name
+      - төлөв
+      - хариуцагч
+      - дууссан
+    sort:
+      - property: file.path
+        direction: ASC

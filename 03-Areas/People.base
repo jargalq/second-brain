@@ -1,0 +1,54 @@
+filters:
+  and:
+    - type == "person"
+formulas:
+  group: if(relationship == "team", "1 · 🏢 Баг (<байгууллага>)", if(relationship == "client", "2 · 🤝 Харилцагч", if(relationship == "partner", "3 · 🎵 Хамтрагч", if(relationship == "network", "4 · 🔗 Сүлжээ", if(relationship == "personal", "5 · ❤️ Хувийн", "6 · ❓ Ангилаагүй")))))
+properties:
+  formula.group:
+    displayName: Бүлэг
+  role:
+    displayName: Албан тушаал
+  company:
+    displayName: Байгууллага
+  relationship:
+    displayName: Харилцаа
+views:
+  - type: table
+    name: Бүх хүн (бүлгээр)
+    groupBy:
+      property: formula.group
+      direction: ASC
+    order:
+      - file.name
+      - role
+      - company
+      - relationship
+    sort:
+      - property: company
+        direction: ASC
+  - type: table
+    name: Харилцагч байгууллагаар
+    filters:
+      and:
+        - relationship == "client"
+    groupBy:
+      property: company
+      direction: ASC
+    order:
+      - file.name
+      - role
+      - company
+  - type: cards
+    name: Баг
+    filters:
+      and:
+        - relationship == "team"
+    order:
+      - file.name
+      - role
+  - type: table
+    name: И-баримт (хувь хүн)
+    filters:
+      and:
+        - ebarimt.required == true
+    order: [file.name, kind, reg_no_masked, ebarimt.type, contact_email, contracts]

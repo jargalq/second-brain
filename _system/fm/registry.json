@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "sessions": {},
+  "roles": {
+    "project": {
+      "note": "03-Areas/AI Team/ai-workers/Project.md",
+      "channel": "01-project",
+      "group": "projects",
+      "folders": [
+        "02-Projects/"
+      ],
+      "skills": [
+        "fm:project",
+        "fm:update",
+        "superpowers:brainstorming",
+        "superpowers:writing-plans"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:project"
+    },
+    "gtd": {
+      "note": "03-Areas/AI Team/ai-workers/GTD.md",
+      "channel": "02-gtd",
+      "group": "areas",
+      "folders": [
+        "01-GTD/",
+        "03-Areas/",
+        "00-Soul/",
+        "03-Areas/Goals/",
+        "99-Archive/",
+        "Home.md"
+      ],
+      "skills": [
+        "fm:update",
+        "fm:notion"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:gtd"
+    },
+    "wiki": {
+      "note": "03-Areas/AI Team/ai-workers/Wiki.md",
+      "channel": "03-wiki",
+      "group": "resources",
+      "folders": [
+        "04-Resources/",
+        "04-Resources/Atomic/",
+        "04-Resources/sources/"
+      ],
+      "skills": [
+        "fm:update",
+        "fm:setup",
+        "fm:watch",
+        "obsidian:defuddle",
+        "obsidian:json-canvas",
+        "exa"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:wiki"
+    },
+    "architect": {
+      "note": "03-Areas/AI Team/ai-workers/Architect.md",
+      "channel": "04-architect",
+      "group": "development",
+      "folders": [
+        "03-Areas/AI Team/",
+        "_system/"
+      ],
+      "skills": [
+        "fm:setup",
+        "fm:relay",
+        "obsidian:obsidian-bases",
+        "superpowers:subagent-driven-development",
+        "superpowers:systematic-debugging",
+        "superpowers:writing-skills",
+        "skill-creator"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:architect"
+    },
+    "creative": {
+      "note": "03-Areas/AI Team/ai-workers/Creative Director.md",
+      "channel": "05-creative",
+      "group": "development",
+      "folders": [],
+      "skills": [
+        "fm:post",
+        "fm:figma",
+        "fm:framer",
+        "fm:watch",
+        "fm:update"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:creative"
+    },
+    "finance": {
+      "note": "03-Areas/AI Team/ai-workers/Finance.md",
+      "channel": "",
+      "group": "areas",
+      "folders": [
+        "03-Areas/Business/finances/"
+      ],
+      "skills": [
+        "fm:finance",
+        "fm:update",
+        "finance:financial-statements",
+        "finance:variance-analysis"
+      ],
+      "private": true,
+      "active": true,
+      "agent": "fm:finance"
+    }
+  }
+}

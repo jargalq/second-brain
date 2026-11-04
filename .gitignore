@@ -1,0 +1,17 @@
+# Номын сангийн ном (том, зохиогчийн эрхтэй) — backup-д оруулахгүй
+04-Resources/library/*.pdf
+04-Resources/library/*.epub
+
+# Obsidian-ий төхөөрөмж тус бүрийн төлөв
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+_trash/
+
+# Python, систем
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

@@ -1,0 +1,114 @@
+# 2026-11-04 Way Academy template-ээс нэмсэн файлууд
+.claude\skills\link-hadgalah\SKILL.md
+.claude\skills\odroo-haah\SKILL.md
+01-GTD\Tasks\Жишээ - Vault-аа Claude-д нээх.md
+02-Projects\Жишээ төсөл\_BRAIN.md
+02-Projects\Жишээ төсөл\Жишээ төсөл.md
+03-Areas\AI Team.base
+03-Areas\Subscriptions.base
+03-Areas\Багаж ба skill.base
+03-Areas\AI Team\Сешн, дүр, sidebar.md
+03-Areas\AI Team\Төрөл ба RACI.md
+03-Areas\AI Team\ai-workers\AI Workers.md
+03-Areas\people\Жишээ хүн.md
+03-Areas\Skills\Жишээ skill - Долоо хоногийн тойм.md
+03-Areas\Tools\Жишээ tool - Obsidian.md
+04-Resources\Sources.base
+04-Resources\Atomic\decisions\2026-11-03 - Жишээ шийдвэр.md
+04-Resources\Atomic\knowledge\2026-11-03 - Атом гэж юу вэ.md
+04-Resources\references\Жишээ лавлагаа - Building a Second Brain.md
+04-Resources\Taxonomy\Technique.md
+04-Resources\Taxonomy\Жишээ workflow - Линк барьж авч атом болгох.md
+04-Resources\Taxonomy\Format\article.md
+04-Resources\Taxonomy\Format\book.md
+04-Resources\Taxonomy\Format\carousel.md
+04-Resources\Taxonomy\Format\docx.md
+04-Resources\Taxonomy\Format\md.md
+04-Resources\Taxonomy\Format\newsletter.md
+04-Resources\Taxonomy\Format\pdf.md
+04-Resources\Taxonomy\Format\podcast.md
+04-Resources\Taxonomy\Format\post.md
+04-Resources\Taxonomy\Format\pptx.md
+04-Resources\Taxonomy\Format\product.md
+04-Resources\Taxonomy\Format\reel.md
+04-Resources\Taxonomy\Format\repo.md
+04-Resources\Taxonomy\Format\skill-format.md
+04-Resources\Taxonomy\Format\template.md
+04-Resources\Taxonomy\Format\thread.md
+04-Resources\Taxonomy\Format\tool.md
+04-Resources\Taxonomy\Format\video.md
+04-Resources\Taxonomy\Format\webpage.md
+04-Resources\Taxonomy\Format\xlsx.md
+04-Resources\Taxonomy\Platform\dribbble.md
+04-Resources\Taxonomy\Platform\facebook.md
+04-Resources\Taxonomy\Platform\github.md
+04-Resources\Taxonomy\Platform\instagram.md
+04-Resources\Taxonomy\Platform\pinterest.md
+04-Resources\Taxonomy\Platform\threads.md
+04-Resources\Taxonomy\Platform\tiktok.md
+04-Resources\Taxonomy\Platform\website.md
+04-Resources\Taxonomy\Platform\youtube.md
+04-Resources\Taxonomy\project-type\coaching.md
+04-Resources\Taxonomy\project-type\content.md
+04-Resources\Taxonomy\project-type\course.md
+04-Resources\Taxonomy\project-type\investment.md
+04-Resources\Taxonomy\project-type\research.md
+04-Resources\Taxonomy\project-type\software.md
+04-Resources\Taxonomy\project-type\website.md
+04-Resources\Taxonomy\Skill\data-analyze.md
+04-Resources\Taxonomy\Skill\deck-pptx.md
+04-Resources\Taxonomy\Skill\doc-docx.md
+04-Resources\Taxonomy\Skill\fm-figma.md
+04-Resources\Taxonomy\Skill\fm-framer.md
+04-Resources\Taxonomy\Skill\fm-inbox.md
+04-Resources\Taxonomy\Skill\fm-log.md
+04-Resources\Taxonomy\Skill\fm-notion.md
+04-Resources\Taxonomy\Skill\fm-people.md
+04-Resources\Taxonomy\Skill\fm-post.md
+04-Resources\Taxonomy\Skill\fm-project.md
+04-Resources\Taxonomy\Skill\fm-research.md
+04-Resources\Taxonomy\Skill\fm-role.md
+04-Resources\Taxonomy\Skill\fm-save.md
+04-Resources\Taxonomy\Skill\fm-sync.md
+04-Resources\Taxonomy\Skill\fm-task.md
+04-Resources\Taxonomy\Skill\fm-update.md
+04-Resources\Taxonomy\Skill\fm-watch.md
+04-Resources\Taxonomy\Skill\pdf.md
+04-Resources\Taxonomy\Skill\sheet-xlsx.md
+04-Resources\Taxonomy\Skill\superpowers-brainstorming.md
+04-Resources\Taxonomy\Skill\superpowers-sdd.md
+04-Resources\Taxonomy\Skill\superpowers-systematic-debugging.md
+04-Resources\Taxonomy\Skill\superpowers-verification-before-completion.md
+04-Resources\Taxonomy\Skill\superpowers-writing-plans.md
+04-Resources\Taxonomy\task-type\build.md
+04-Resources\Taxonomy\task-type\content.md
+04-Resources\Taxonomy\task-type\decision.md
+04-Resources\Taxonomy\task-type\design.md
+04-Resources\Taxonomy\task-type\document.md
+04-Resources\Taxonomy\task-type\lesson.md
+04-Resources\Taxonomy\task-type\meeting.md
+04-Resources\Taxonomy\task-type\research.md
+04-Resources\Taxonomy\Technique\Гэнэтийн орлуулга.md
+04-Resources\Taxonomy\Technique\Дулаан-хүйтэн эсрэгцэл.md
+04-Resources\Taxonomy\Technique\Дүрсэн доторх бичиг.md
+04-Resources\Taxonomy\Technique\Масштабын зөрүү.md
+04-Resources\Taxonomy\Technique\Материал ба гар хийц.md
+04-Resources\Taxonomy\Technique\Тор ба давталт.md
+04-Resources\Taxonomy\Technique\Ханасан өнгөн талбай.md
+04-Resources\Taxonomy\Technique\Хоосон дахь ганц биет.md
+04-Resources\Taxonomy\Technique\Хуваасан харьцуулалт.md
+04-Resources\Taxonomy\Technique\Хэмжээний шатлал.md
+04-Resources\Taxonomy\Technique\Хүрээн доторх хүрээ.md
+04-Resources\Taxonomy\Technique\Шууд харц.md
+04-Resources\Taxonomy\Tool\codebase.md
+04-Resources\Taxonomy\Tool\drive.md
+04-Resources\Taxonomy\Tool\figma.md
+04-Resources\Taxonomy\Tool\github.md
+04-Resources\Taxonomy\Tool\notion.md
+04-Resources\Taxonomy\Tool\premiere.md
+04-Resources\Taxonomy\Tool\stitch.md
+99-Archive\Archive.base
+_system\fm\registry.json
+
+# Хуучин User PATH
+﻿C:\Users\User\AppData\Local\Programs\Python\Launcher\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Python\Python313;C:\Users\User\AppData\Local\Programs\Python\Python313\scripts;;C:\Users\User\.bun\bin

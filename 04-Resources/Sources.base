@@ -1,0 +1,77 @@
+filters:
+  and:
+    - '!file.inFolder("_system/templates")'
+    - '!file.inFolder("_trash")'
+    - type == "source"
+    - file.ext == "md"
+formulas:
+  tulgalt: if(status == "confirmed", "✅ Батлагдсан", if(status == "confirmed-internal", "✅ Дотоод", if(status == "conflict", "⚠️ Зөрүүтэй", if(status == "refutes-deck-claim", "⛔ Мэдэгдлийг няцаав", if(status == "superseded", "🕓 Хуучирсан", if(status == "unverified", "❓ Шалгаагүй", status))))))
+  esh: if(source-type == "primary", "🟢 Анхдагч", "⚪ Хоёрдогч")
+  hugatsaa: if(as-of, (today() - date(as-of)).days, "")
+properties:
+  claim:
+    displayName: Мэдэгдэл
+  value:
+    displayName: Утга
+  formula.tulgalt:
+    displayName: Тулгалт
+  formula.esh:
+    displayName: Эх сурвалж
+  source-name:
+    displayName: Хаанаас
+  as-of:
+    displayName: Дата огноо
+  formula.hugatsaa:
+    displayName: Хоног
+  used-in:
+    displayName: Хаана ашиглана
+  source-url:
+    displayName: URL
+views:
+  - type: table
+    name: ⚠️ Анхаарах - зөрүү, няцаалт, хуучирсан
+    filters:
+      or:
+        - status == "conflict"
+        - status == "refutes-deck-claim"
+        - status == "superseded"
+    order:
+      - file.name
+      - formula.tulgalt
+      - claim
+      - value
+      - used-in
+      - source-name
+  - type: table
+    name: ✅ Батлагдсан хэсгүүд
+    filters:
+      or:
+        - status == "confirmed"
+        - status == "confirmed-internal"
+    order:
+      - file.name
+      - value
+      - formula.esh
+      - as-of
+      - source-name
+      - used-in
+  - type: table
+    name: Бүгд - тулгалтын төлөвөөр
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - claim
+      - value
+      - formula.esh
+      - as-of
+      - formula.hugatsaa
+      - source-url
+  - type: cards
+    name: Картаар
+    order:
+      - file.name
+      - formula.tulgalt
+      - value
+      - source-name

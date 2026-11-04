@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("01-GTD/Inbox")
+    - note.төрөл == "inbox"
+properties:
+  file.name:
+    displayName: Зүйл
+  note.төлөв:
+    displayName: Төлөв
+  note.огноо:
+    displayName: Огноо
+  note.эх:
+    displayName: Эх
+views:
+  - type: table
+    name: Ангилаагүй
+    filters:
+      and:
+        - note.төлөв == "ангилаагүй"
+    order:
+      - file.name
+      - огноо
+      - эх
+    sort:
+      - property: огноо
+        direction: DESC

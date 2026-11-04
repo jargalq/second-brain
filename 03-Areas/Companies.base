@@ -1,0 +1,66 @@
+filters:
+  and:
+    - '!file.inFolder("_system/templates")'
+    - '!file.inFolder("_trash")'
+    - file.ext == "md"
+    - note.type == "company"
+properties:
+  industry:
+    displayName: Салбар
+  reach:
+    displayName: Хүрээ
+  status:
+    displayName: Төлөв
+  fit:
+    displayName: Тохироо
+  last-interaction:
+    displayName: Сүүлийн холбоо
+  website:
+    displayName: Вэб
+  tags:
+    displayName: Шошго
+views:
+  - type: table
+    name: All
+    groupBy:
+      property: industry
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - fit
+      - last-interaction
+      - reach
+    columnSize:
+      file.name: 200
+  - type: table
+    name: By Status
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - industry
+      - fit
+  - type: table
+    name: High Fit
+    filters:
+      and:
+        - fit == "high"
+    order:
+      - file.name
+      - industry
+      - status
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - industry
+      - status
+  - type: table
+    name: Харилцагч ба И-баримт
+    filters:
+      or:
+        - relationship == "client"
+        - status == "client"
+    order: [file.name, legal_name, reg_no_masked, ebarimt.required, ebarimt.type, contact_person, contracts]

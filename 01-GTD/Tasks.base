@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.inFolder("01-GTD/Tasks")
+    - note.төрөл == "task"
+properties:
+  file.name:
+    displayName: Ажил
+  note.төлөв:
+    displayName: Төлөв
+  note.огноо:
+    displayName: Огноо
+views:
+  - type: table
+    name: Төлөвөөр
+    groupBy:
+      property: төлөв
+      direction: ASC
+    order:
+      - file.name
+      - огноо
+    sort:
+      - property: огноо
+        direction: ASC

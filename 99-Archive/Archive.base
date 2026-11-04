@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("99-Archive")
+    - file.ext == "md"
+views:
+  - type: table
+    name: Архивласан төслүүд
+    filters:
+      and:
+        - file.inFolder("99-Archive/Projects")
+        - type == "project"
+    order: [file.name, status, type]
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Бүх архив
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order: [file.name, type, file.mtime]

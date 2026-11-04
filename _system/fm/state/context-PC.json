@@ -1,0 +1,207 @@
+{
+ "device": "PC",
+ "updated": "2026-11-04 09:27",
+ "machine": {
+  "~/.claude/CLAUDE.md": {
+   "sha": null,
+   "bytes": null,
+   "mtime": null,
+   "files": null,
+   "exists": false
+  },
+  "memory/MEMORY.md": {
+   "sha": "a532a2bb9097",
+   "bytes": 537,
+   "mtime": "2026-11-02 09:38",
+   "files": 3,
+   "exists": true
+  }
+ },
+ "sessions": {
+  "?": {
+   "at": "2026-11-04 09:02",
+   "injected_bytes": 18096,
+   "sources": [
+    {
+     "path": "D:\\Seond brain\\_system\\BOOT.md",
+     "mechanism": "fm SessionStart hook",
+     "exists": true,
+     "bytes": 16802,
+     "mtime": "2026-11-03 22:07",
+     "sha": "ac6cc55bce4c",
+     "name": "BOOT.md"
+    },
+    {
+     "path": "D:\\Seond brain\\AGENTS.md",
+     "mechanism": "mod (agents-md)",
+     "exists": false,
+     "name": "AGENTS.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\CLAUDE.md",
+     "mechanism": "Claude memory (машин бүрт)",
+     "exists": false,
+     "name": "~/.claude/CLAUDE.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\projects\\D--Seond-brain\\memory\\MEMORY.md",
+     "mechanism": "Claude auto memory",
+     "exists": true,
+     "bytes": 537,
+     "mtime": "2026-11-02 09:38",
+     "sha": "a532a2bb9097",
+     "files": 3,
+     "name": "memory/MEMORY.md"
+    }
+   ]
+  },
+  "a1fd2ada-13a9-411a-8bcc-7ff43fdb5a1c": {
+   "at": "2026-11-04 09:03",
+   "injected_bytes": 18176,
+   "sources": [
+    {
+     "path": "D:\\Seond brain\\_system\\BOOT.md",
+     "mechanism": "fm SessionStart hook",
+     "exists": true,
+     "bytes": 16802,
+     "mtime": "2026-11-03 22:07",
+     "sha": "ac6cc55bce4c",
+     "name": "BOOT.md"
+    },
+    {
+     "path": "D:\\Seond brain\\AGENTS.md",
+     "mechanism": "mod (agents-md)",
+     "exists": false,
+     "name": "AGENTS.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\CLAUDE.md",
+     "mechanism": "Claude memory (машин бүрт)",
+     "exists": false,
+     "name": "~/.claude/CLAUDE.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\projects\\D--Seond-brain\\memory\\MEMORY.md",
+     "mechanism": "Claude auto memory",
+     "exists": true,
+     "bytes": 537,
+     "mtime": "2026-11-02 09:38",
+     "sha": "a532a2bb9097",
+     "files": 3,
+     "name": "memory/MEMORY.md"
+    }
+   ]
+  },
+  "d4c55529-48f9-410f-83b8-04960aacd6b1": {
+   "at": "2026-11-04 09:04",
+   "injected_bytes": 18114,
+   "sources": [
+    {
+     "path": "D:\\Seond brain\\_system\\BOOT.md",
+     "mechanism": "fm SessionStart hook",
+     "exists": true,
+     "bytes": 16802,
+     "mtime": "2026-11-03 22:07",
+     "sha": "ac6cc55bce4c",
+     "name": "BOOT.md"
+    },
+    {
+     "path": "D:\\Seond brain\\AGENTS.md",
+     "mechanism": "mod (agents-md)",
+     "exists": false,
+     "name": "AGENTS.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\CLAUDE.md",
+     "mechanism": "Claude memory (машин бүрт)",
+     "exists": false,
+     "name": "~/.claude/CLAUDE.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\projects\\D--Seond-brain\\memory\\MEMORY.md",
+     "mechanism": "Claude auto memory",
+     "exists": true,
+     "bytes": 537,
+     "mtime": "2026-11-02 09:38",
+     "sha": "a532a2bb9097",
+     "files": 3,
+     "name": "memory/MEMORY.md"
+    }
+   ]
+  },
+  "42594aef-c8f6-41ec-aa7d-50e58e363f21": {
+   "at": "2026-11-04 09:20",
+   "injected_bytes": 18114,
+   "sources": [
+    {
+     "path": "D:\\Seond brain\\_system\\BOOT.md",
+     "mechanism": "fm SessionStart hook",
+     "exists": true,
+     "bytes": 16802,
+     "mtime": "2026-11-03 22:07",
+     "sha": "ac6cc55bce4c",
+     "name": "BOOT.md"
+    },
+    {
+     "path": "D:\\Seond brain\\AGENTS.md",
+     "mechanism": "mod (agents-md)",
+     "exists": false,
+     "name": "AGENTS.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\CLAUDE.md",
+     "mechanism": "Claude memory (машин бүрт)",
+     "exists": false,
+     "name": "~/.claude/CLAUDE.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\projects\\D--Seond-brain\\memory\\MEMORY.md",
+     "mechanism": "Claude auto memory",
+     "exists": true,
+     "bytes": 537,
+     "mtime": "2026-11-02 09:38",
+     "sha": "a532a2bb9097",
+     "files": 3,
+     "name": "memory/MEMORY.md"
+    }
+   ]
+  },
+  "0394e8ca-5bbf-41a9-bffc-de8b9256df0e": {
+   "at": "2026-11-04 09:27",
+   "injected_bytes": 18619,
+   "sources": [
+    {
+     "path": "D:\\Seond brain\\_system\\BOOT.md",
+     "mechanism": "fm SessionStart hook",
+     "exists": true,
+     "bytes": 16802,
+     "mtime": "2026-11-03 22:07",
+     "sha": "ac6cc55bce4c",
+     "name": "BOOT.md"
+    },
+    {
+     "path": "D:\\Seond brain\\AGENTS.md",
+     "mechanism": "mod (agents-md)",
+     "exists": false,
+     "name": "AGENTS.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\CLAUDE.md",
+     "mechanism": "Claude memory (машин бүрт)",
+     "exists": false,
+     "name": "~/.claude/CLAUDE.md"
+    },
+    {
+     "path": "C:\\Users\\User\\.claude\\projects\\D--Seond-brain\\memory\\MEMORY.md",
+     "mechanism": "Claude auto memory",
+     "exists": true,
+     "bytes": 537,
+     "mtime": "2026-11-02 09:38",
+     "sha": "a532a2bb9097",
+     "files": 3,
+     "name": "memory/MEMORY.md"
+    }
+   ]
+  }
+ }
+}
