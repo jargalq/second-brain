@@ -1,6 +1,41 @@
 {
   "version": 1,
-  "sessions": {},
+  "sessions": {
+    "4bebfbb9-65ec-450b-9a2a-e05e9cb8c4cf": {
+      "role": "gtd",
+      "device": "PC",
+      "title": "GTD · PC",
+      "project": "gtd",
+      "group": "areas",
+      "since": "2026-11-06"
+    },
+    "8b322017-a381-4123-a295-5826145af14b": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хөхтойн ХХК",
+      "project": "khukhtoin",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "c30acf6a-c6e6-4539-a4d6-330503fbc85e": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Резевоиртунгс ХХК",
+      "project": "reservoirtungs",
+      "folder": "02-Projects/Ажил/Резевоиртунгс ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "7bed7ff5-cc20-48cf-8cbb-f45c730927e7": {
+      "role": "architect",
+      "device": "PC",
+      "title": "Architect · PC",
+      "project": "architect",
+      "group": "development",
+      "since": "2026-11-06"
+    }
+  },
   "roles": {
     "project": {
       "note": "03-Areas/AI Team/ai-workers/Project.md",
