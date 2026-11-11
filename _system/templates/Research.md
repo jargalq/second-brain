@@ -15,7 +15,7 @@ cover: "04-Resources/references/covers/_cat-research.svg"
 
 ## For future agent
 
-Судалгааны hub note — Resource, төсөл биш (`04-Resources/Research/<сэдэв>/<сэдэв>.md`). Төсөлтэй бол `project: "[[02-Projects/<Төсөл>/<Төсөл>]]"`, төсөлгүй бол хоосон («үр»); судалгааны GTD task-ууд `research: "[[энэ note]]"` талбараар холбогдоно, бүгд `completed` болоход хаахыг санал болгоод {{fm:member}} баталсны дараа л `status: done` + `closed:` огноо тавина.
+Судалгааны hub note — Resource, төсөл биш (`04-Resources/Research/<сэдэв>/<сэдэв>.md`). Төсөлтэй бол `project: "[[02-Projects/<Төсөл>/<Төсөл>]]"`, төсөлгүй бол хоосон («үр»); судалгааны GTD task-ууд `research: "[[энэ note]]"` талбараар холбогдоно, бүгд `completed` болоход хаахыг санал болгоод Mugi баталсны дараа л `status: done` + `closed:` огноо тавина.
 
 ## Зорилго
 
@@ -39,4 +39,4 @@ views:
       - due
 ```
 
-💡 Бүх task `completed` болбол судалгааг хааж болно — {{fm:member}} баталсны дараа л `status: done`, `closed: YYYY-MM-DD` (автоматаар хаагдахгүй).
+💡 Бүх task `completed` болбол судалгааг хааж болно — Mugi баталсны дараа л `status: done`, `closed: YYYY-MM-DD` (автоматаар хаагдахгүй).

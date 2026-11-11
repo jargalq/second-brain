@@ -51,4 +51,10 @@ views:
     filters:
       and:
         - ebarimt.required == true
-    order: [file.name, kind, reg_no_masked, ebarimt.type, contact_email, contracts]
+    order:
+      - file.name
+      - kind
+      - reg_no_masked
+      - ebarimt.type
+      - contact_email
+      - contracts

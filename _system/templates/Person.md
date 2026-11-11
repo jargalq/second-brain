@@ -14,7 +14,7 @@ contact_email:
 location:
 kind: хувь хүн
 contact_phone:
-reg_no_masked:     # РД ••NN зөвхөн клиент/гэрээний хувь хүнд; {{fm:member}}-ийнхийг хэзээ ч бүү бич
+reg_no_masked:     # РД ••NN зөвхөн клиент/гэрээний хувь хүнд; Mugi-ийнхийг хэзээ ч бүү бич
 ebarimt:
   required: false
   type: хувь хүн     # хувь хүн | байгууллага

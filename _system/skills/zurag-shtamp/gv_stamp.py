@@ -2,7 +2,7 @@
 Эх загвар: 072 Haitan, 4.zurag/pdf_2026 (2026 онд ЭБМЗ-д өгсөн ТЭЗҮ-ийн хавсралт зураг).
 
 Хэрэглээ (matplotlib):
-    import sys; sys.path.insert(0, r"D:\\Seond brain\\_system\\skills\\zurag-shtamp")
+    import sys; sys.path.insert(0, "<vault>/_system/skills/zurag-shtamp")  # <vault> = vault-ийн үндэс
     from gv_stamp import draw_stamp
     draw_stamp(fig, page_w_mm=420, page_h_mm=297, right_mm=415, bottom_mm=5, info={...})
 right_mm, bottom_mm: хүрээний (рамкийн) баруун доод булан, хуудасны зүүн доод булангаас мм-ээр.

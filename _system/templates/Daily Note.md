@@ -4,7 +4,7 @@ type: daily
 tags:
   - daily
 ai-first: true
-focus: []          # {{fm:member}}-ийн оролт (дашбоардаас). ЖАГСААЛТ — mood/energy нь скаляр
+focus: []          # Mugi-ийн оролт (дашбоардаас). ЖАГСААЛТ — mood/energy нь скаляр
 mood:
 energy:
 habit_morning: false

@@ -1,0 +1,118 @@
+/* Командын төв: бараан неон самбар. Зөвхөн cssclasses: command-center бүхий тэмдэглэл + Graph view */
+
+.command-center {
+  --cc-bg: #071116;
+  --cc-panel: #0c1c22;
+  --cc-line: #16343c;
+  --cc-text: #bfe3dd;
+  --cc-dim: #5f8a87;
+  --cc-accent: #2ee6c9;
+  --cc-accent-2: #3fa9ff;
+  --cc-warn: #ffb547;
+  --background-primary: var(--cc-bg);
+  --background-secondary: var(--cc-panel);
+  --text-normal: var(--cc-text);
+  --text-muted: var(--cc-dim);
+  --text-accent: var(--cc-accent);
+  --link-color: var(--cc-accent);
+  --link-unresolved-color: var(--cc-dim);
+  --table-border-color: var(--cc-line);
+  --table-header-background: var(--cc-panel);
+  --table-row-alt-background: rgba(46, 230, 201, 0.03);
+  --bases-table-header-background: var(--cc-panel);
+  background-color: var(--cc-bg);
+  color: var(--cc-text);
+  font-family: "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+  font-size: 13px;
+}
+
+/* Properties, давхар гарчгийг нууна */
+.command-center .metadata-container,
+.command-center .inline-title { display: none; }
+.command-center .markdown-preview-view { padding-top: 12px; }
+
+/* Гарчиг: жижиг, том үсэг, зайтай */
+.command-center h1 {
+  font-size: 1.1em;
+  letter-spacing: 0.25em;
+  color: var(--cc-accent);
+  text-shadow: 0 0 12px rgba(46, 230, 201, 0.45);
+  border-bottom: 1px solid var(--cc-line);
+  padding-bottom: 0.4em;
+}
+.command-center h2 {
+  font-size: 0.8em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cc-dim);
+  margin-top: 1.6em;
+  border-left: 2px solid var(--cc-accent);
+  padding-left: 0.6em;
+}
+
+/* Embed болон callout-ыг карт болгоно */
+.command-center .internal-embed,
+.command-center .bases-embed,
+.command-center .callout {
+  background: var(--cc-panel);
+  border: 1px solid var(--cc-line);
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(46, 230, 201, 0.04), 0 0 18px rgba(46, 230, 201, 0.06) inset;
+  padding: 6px 8px;
+}
+.command-center .callout[data-callout^="cc-"] {
+  --callout-color: 46, 230, 201;
+}
+.command-center .callout[data-callout="cc-clock"] .callout-title {
+  font-size: 1.6em;
+  letter-spacing: 0.15em;
+  color: var(--cc-accent);
+}
+.command-center .callout[data-callout="cc-deck"] {
+  --callout-color: 63, 169, 255;
+}
+.command-center .callout[data-callout="cc-note"] {
+  --callout-color: 95, 138, 135;
+  opacity: 0.8;
+}
+
+/* Bases-ийн бүлгийн гарчиг (цагаан дэвсгэрийг арилгана) */
+.command-center [class*="group-heading"],
+.command-center [class*="group-header"] {
+  background: rgba(46, 230, 201, 0.06) !important;
+  color: var(--cc-accent) !important;
+}
+
+/* Хүснэгт */
+.command-center table th {
+  color: var(--cc-dim);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+}
+.command-center table td { border-color: var(--cc-line); }
+.command-center code {
+  background: rgba(46, 230, 201, 0.08);
+  color: var(--cc-accent);
+}
+
+/* Graph view: бараан дэвсгэр, неон зангилаа */
+.workspace-leaf-content[data-type="graph"] {
+  --graph-node: #2ee6c9;
+  --graph-node-unresolved: #2b4a50;
+  --graph-node-focused: #ffffff;
+  --graph-node-tag: #3fa9ff;
+  --graph-node-attachment: #8a7bff;
+  --graph-line: rgba(46, 230, 201, 0.18);
+  --graph-text: #bfe3dd;
+}
+.workspace-leaf-content[data-type="graph"] .graph-view.color-line { color: rgba(46, 230, 201, 0.16); }
+.workspace-leaf-content[data-type="graph"] .graph-view.color-fill { color: #2ee6c9; }
+.workspace-leaf-content[data-type="graph"] .graph-view.color-fill-unresolved { color: #2b4a50; }
+.workspace-leaf-content[data-type="graph"] .graph-view.color-fill-focused { color: #ffffff; }
+.workspace-leaf-content[data-type="graph"] .graph-view.color-text { color: #bfe3dd; }
+.workspace-leaf-content[data-type="graph"] .graph-view.color-circle { color: #2ee6c9; }
+.workspace-leaf-content[data-type="graph"] .view-content {
+  background: radial-gradient(circle at center, #0d2228 0%, #071116 70%);
+}

@@ -34,6 +34,113 @@
       "project": "architect",
       "group": "development",
       "since": "2026-11-06"
+    },
+    "efebbd3f-e2d2-4be0-8da2-9d693b11ed91": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хөхтойн ХХК",
+      "project": "khukhtoin",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "aa80a3a5-c108-42a3-a1a7-2ae647096bec": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Төвийн бүс",
+      "project": "central-food-park",
+      "folder": "02-Projects/Ажил/Төвийн бүсийн хүнс, хөнгөн үйлдвэрлэл технологийн цогцолбор ТӨХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "d0ea252a-2f85-4836-a7b1-ed632524ed98": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Онгон хайрхан-1",
+      "project": "ongon-khairkhan-1",
+      "folder": "02-Projects/Ажил/Резевоиртунгс ХХК/Онгон хайрхан-1",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "495119ca-52d2-44ec-9c27-5f7779737814": {
+      "role": "finance",
+      "device": "PC",
+      "title": "Finance · PC",
+      "project": "finance",
+      "group": "areas",
+      "since": "2026-11-06",
+      "private": true
+    },
+    "a1fb618d-9584-4caf-a83d-507e298118d4": {
+      "role": "creative",
+      "device": "PC",
+      "title": "Creative Director · PC",
+      "project": "creative",
+      "group": "development",
+      "since": "2026-11-07"
+    },
+    "b5398ec5-138a-462d-804d-3addbc9efed5": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Талын элч ХХК",
+      "project": "talyn-elch",
+      "folder": "02-Projects/Ажил/Талын элч ХХК",
+      "group": "projects",
+      "since": "2026-11-07"
+    },
+    "4e5c8b9f-b427-4c54-8a11-1a32d0952d89": {
+      "device": "PC",
+      "title": "📁 Сүүж уул",
+      "project": "suuzh-uul",
+      "folder": "02-Projects/Ажил/Вай эйч графит нэчүрал ХХК/Сүүж уул",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "79a556dd-4503-4a79-8285-4b4dc351c7f0": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Голден погада ХХК",
+      "project": "golden-pogada",
+      "folder": "02-Projects/Ажил/Голден погада ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "0de1bc62-5ff1-4815-9f78-14d96ed7899e": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Зүүн наран",
+      "project": "zuun-naran",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК/Зүүн наран",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "2d99ce22-8bff-4ee1-814e-7ccc3b6d6d41": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Алтан дун дорнод монгол ХХК",
+      "project": "altan-dun-dornod-mongol",
+      "folder": "02-Projects/Ажил/Алтан дун дорнод монгол ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "773a72aa-53dc-4109-aef5-4fd1c17eb406": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Голден погада › Хайгуулын төлөвлөгөө 2027",
+      "project": "golden-pogada",
+      "baton": "golden-pogada-haiguul",
+      "folder": "02-Projects/Ажил/Голден погада ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "0c0f6509-488a-4d70-af1e-70823c145be9": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хайтан",
+      "project": "haitan",
+      "folder": "02-Projects/Ажил/Зунхуа инси куан ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
     }
   },
   "roles": {
@@ -148,6 +255,23 @@
       "private": true,
       "active": true,
       "agent": "fm:finance"
+    },
+    "context-engineer": {
+      "note": "03-Areas/AI Team/ai-workers/Context Engineer.md",
+      "channel": "context-engineer",
+      "group": "development",
+      "folders": [
+        "Алдааны ангилал, trace/regression eval, context аудит, brief; засварын санал (хэрэгжүүлэлт нь Architect)"
+      ],
+      "skills": [
+        "fm:context-engineer",
+        "superpowers:brainstorming",
+        "superpowers:writing-skills",
+        "superpowers:dispatching-parallel-agents"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:context-engineer"
     }
   }
 }

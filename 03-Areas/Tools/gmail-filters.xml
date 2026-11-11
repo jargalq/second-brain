@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+  <title>Mail Filters</title>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='@goldenpogada.mn'/>
+    <apps:property name='label' value='02-Projects/Голден погада ХХК'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='hasTheWord' value='todbum OR тодбум'/>
+    <apps:property name='label' value='02-Projects/Тодбум ХХК'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='industrialcomplex.cr@gmail.com'/>
+    <apps:property name='label' value='02-Projects/Төвийн бүсийн цогцолбор'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='davaam4321@gmail.com OR davaanyam.gv@gmail.com OR ariyabal.gv@gmail.com OR @greatvision.mn'/>
+    <apps:property name='label' value='02-Projects/Грийтвишн ХХК'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='hasTheWord' value='way-academy-season-2 OR &quot;Way Academy&quot;'/>
+    <apps:property name='label' value='02-Projects/Second Brain Season 2'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='@goldman.mn OR nyamochir.goldman@gmail.com OR terramind.2017@gmail.com OR nomingmining@gmail.com OR minevisionminingresources@gmail.com OR @soyolon.mn OR @omnogovi.gov.mn'/>
+    <apps:property name='label' value='02-Projects/Ажил'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='ebarimt@xacbank.mn OR digitalbank@xacbank.mn'/>
+    <apps:property name='label' value='03-Areas/Life/Banks'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='noreply-accounts@google.com OR no-reply@accounts.google.com OR no-reply@google.com OR noreply@github.com OR account-security-noreply@accountprotection.microsoft.com OR notifications@vercel.com OR security@mail.instagram.com OR no-reply@itc.gov.mn'/>
+    <apps:property name='label' value='03-Areas/Tools'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='netpicks@mail.beehiiv.com OR updates@academia-mail.com OR noreply@wikiloc.com'/>
+    <apps:property name='label' value='04-Resources/sources'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='temu@shop.temuemail.com OR admin@iymcompetitions.org OR team@framer.com'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+  <entry>
+    <category term='filter'></category><title>Mail Filter</title><content></content>
+    <apps:property name='from' value='@mta.mn'/>
+    <apps:property name='label' value='03-Areas/Business/Tax'/>
+    <apps:property name='shouldArchive' value='true'/>
+  </entry>
+</feed>

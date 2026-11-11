@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "sessions": {
+    "4bebfbb9-65ec-450b-9a2a-e05e9cb8c4cf": {
+      "role": "gtd",
+      "device": "PC",
+      "title": "GTD · PC",
+      "project": "gtd",
+      "group": "areas",
+      "since": "2026-11-06"
+    },
+    "8b322017-a381-4123-a295-5826145af14b": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хөхтойн ХХК",
+      "project": "khukhtoin",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "c30acf6a-c6e6-4539-a4d6-330503fbc85e": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Резевоиртунгс ХХК",
+      "project": "reservoirtungs",
+      "folder": "02-Projects/Ажил/Резевоиртунгс ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "7bed7ff5-cc20-48cf-8cbb-f45c730927e7": {
+      "role": "architect",
+      "device": "PC",
+      "title": "Architect · PC",
+      "project": "architect",
+      "group": "development",
+      "since": "2026-11-06"
+    },
+    "efebbd3f-e2d2-4be0-8da2-9d693b11ed91": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хөхтойн ХХК",
+      "project": "khukhtoin",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "aa80a3a5-c108-42a3-a1a7-2ae647096bec": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Төвийн бүс",
+      "project": "central-food-park",
+      "folder": "02-Projects/Ажил/Төвийн бүсийн хүнс, хөнгөн үйлдвэрлэл технологийн цогцолбор ТӨХХК",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "d0ea252a-2f85-4836-a7b1-ed632524ed98": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Онгон хайрхан-1",
+      "project": "ongon-khairkhan-1",
+      "folder": "02-Projects/Ажил/Резевоиртунгс ХХК/Онгон хайрхан-1",
+      "group": "projects",
+      "since": "2026-11-06"
+    },
+    "495119ca-52d2-44ec-9c27-5f7779737814": {
+      "role": "finance",
+      "device": "PC",
+      "title": "Finance · PC",
+      "project": "finance",
+      "group": "areas",
+      "since": "2026-11-06",
+      "private": true
+    },
+    "a1fb618d-9584-4caf-a83d-507e298118d4": {
+      "role": "creative",
+      "device": "PC",
+      "title": "Creative Director · PC",
+      "project": "creative",
+      "group": "development",
+      "since": "2026-11-07"
+    },
+    "b5398ec5-138a-462d-804d-3addbc9efed5": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Талын элч ХХК",
+      "project": "talyn-elch",
+      "folder": "02-Projects/Ажил/Талын элч ХХК",
+      "group": "projects",
+      "since": "2026-11-07"
+    },
+    "4e5c8b9f-b427-4c54-8a11-1a32d0952d89": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Сүүж уул",
+      "project": "suuzh-uul",
+      "folder": "02-Projects/Ажил/Вай эйч графит нэчүрал ХХК/Сүүж уул",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "79a556dd-4503-4a79-8285-4b4dc351c7f0": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Голден погада ХХК",
+      "project": "golden-pogada",
+      "folder": "02-Projects/Ажил/Голден погада ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "0de1bc62-5ff1-4815-9f78-14d96ed7899e": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Зүүн наран",
+      "project": "zuun-naran",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК/Зүүн наран",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "2d99ce22-8bff-4ee1-814e-7ccc3b6d6d41": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Алтан дун дорнод монгол ХХК",
+      "project": "altan-dun-dornod-mongol",
+      "folder": "02-Projects/Ажил/Алтан дун дорнод монгол ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "773a72aa-53dc-4109-aef5-4fd1c17eb406": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Голден погада › Хайгуулын төлөвлөгөө 2027",
+      "project": "golden-pogada",
+      "baton": "golden-pogada-haiguul",
+      "folder": "02-Projects/Ажил/Голден погада ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    },
+    "0c0f6509-488a-4d70-af1e-70823c145be9": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хайтан",
+      "project": "haitan",
+      "folder": "02-Projects/Ажил/Зунхуа инси куан ХХК",
+      "group": "projects",
+      "since": "2026-11-09"
+    }
+  },
+  "roles": {
+    "project": {
+      "note": "03-Areas/AI Team/ai-workers/Project.md",
+      "channel": "01-project",
+      "group": "projects",
+      "folders": [
+        "02-Projects/"
+      ],
+      "skills": [
+        "fm:project",
+        "fm:update",
+        "superpowers:brainstorming",
+        "superpowers:writing-plans"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:project"
+    },
+    "gtd": {
+      "note": "03-Areas/AI Team/ai-workers/GTD.md",
+      "channel": "02-gtd",
+      "group": "areas",
+      "folders": [
+        "01-GTD/",
+        "03-Areas/",
+        "00-Soul/",
+        "03-Areas/Goals/",
+        "99-Archive/",
+        "Home.md"
+      ],
+      "skills": [
+        "fm:update",
+        "fm:notion"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:gtd"
+    },
+    "wiki": {
+      "note": "03-Areas/AI Team/ai-workers/Wiki.md",
+      "channel": "03-wiki",
+      "group": "resources",
+      "folders": [
+        "04-Resources/",
+        "04-Resources/Atomic/",
+        "04-Resources/sources/"
+      ],
+      "skills": [
+        "fm:update",
+        "fm:setup",
+        "fm:watch",
+        "obsidian:defuddle",
+        "obsidian:json-canvas",
+        "exa"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:wiki"
+    },
+    "architect": {
+      "note": "03-Areas/AI Team/ai-workers/Architect.md",
+      "channel": "04-architect",
+      "group": "development",
+      "folders": [
+        "03-Areas/AI Team/",
+        "_system/"
+      ],
+      "skills": [
+        "fm:setup",
+        "fm:relay",
+        "obsidian:obsidian-bases",
+        "superpowers:subagent-driven-development",
+        "superpowers:systematic-debugging",
+        "superpowers:writing-skills",
+        "skill-creator"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:architect"
+    },
+    "creative": {
+      "note": "03-Areas/AI Team/ai-workers/Creative Director.md",
+      "channel": "05-creative",
+      "group": "development",
+      "folders": [],
+      "skills": [
+        "fm:post",
+        "fm:figma",
+        "fm:framer",
+        "fm:watch",
+        "fm:update"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:creative"
+    },
+    "finance": {
+      "note": "03-Areas/AI Team/ai-workers/Finance.md",
+      "channel": "",
+      "group": "areas",
+      "folders": [
+        "03-Areas/Business/finances/"
+      ],
+      "skills": [
+        "fm:finance",
+        "fm:update",
+        "finance:financial-statements",
+        "finance:variance-analysis"
+      ],
+      "private": true,
+      "active": true,
+      "agent": "fm:finance"
+    },
+    "context-engineer": {
+      "note": "03-Areas/AI Team/ai-workers/Context Engineer.md",
+      "channel": "context-engineer",
+      "group": "development",
+      "folders": [
+        "Алдааны ангилал, trace/regression eval, context аудит, brief; засварын санал (хэрэгжүүлэлт нь Architect)"
+      ],
+      "skills": [
+        "fm:context-engineer",
+        "superpowers:brainstorming",
+        "superpowers:writing-skills",
+        "superpowers:dispatching-parallel-agents"
+      ],
+      "private": false,
+      "active": true,
+      "agent": "fm:context-engineer"
+    }
+  }
+}

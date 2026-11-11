@@ -24,7 +24,7 @@ sensitivity: normal
 
 ## For future agent
 
-Гэрээ = нэг файл ({{fm:member}}, 2026-09-17). `party` → компанийн нот руу wikilink. `renew-remind` — сунгалт сануулах огноо, Command Center-ийн цаглабар S1 үүнийг уншина.
+Гэрээ = нэг файл (Mugi, 2026-09-17). `party` → компанийн нот руу wikilink. `renew-remind` — сунгалт сануулах огноо, Command Center-ийн цаглабар S1 үүнийг уншина.
 
 ⚠️ `value` бол цэвэр тоо, `currency` тусад нь. `uid` хэзээ ч бүү өөрчил.
 

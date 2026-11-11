@@ -9,7 +9,10 @@ views:
       and:
         - file.inFolder("99-Archive/Projects")
         - type == "project"
-    order: [file.name, status, type]
+    order:
+      - file.name
+      - status
+      - type
     sort:
       - property: file.mtime
         direction: DESC
@@ -18,4 +21,7 @@ views:
     groupBy:
       property: file.folder
       direction: ASC
-    order: [file.name, type, file.mtime]
+    order:
+      - file.name
+      - type
+      - file.mtime

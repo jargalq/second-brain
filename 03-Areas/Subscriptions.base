@@ -23,7 +23,7 @@ properties:
     displayName: ""
 views:
   - type: table
-    name: "Багийн захиалгууд"
+    name: "INAI захиалгууд"
     order:
       - formula.renew
       - company

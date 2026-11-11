@@ -3,6 +3,7 @@ date: 2026-11-03
 type: project-brain
 project: "[[02-Projects/Жишээ төсөл/Жишээ төсөл]]"
 ai-first: true
+up: "[[02-Projects/Жишээ төсөл/Жишээ төсөл]]"
 ---
 
 # _BRAIN — Жишээ төсөл

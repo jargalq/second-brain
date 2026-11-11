@@ -2,12 +2,12 @@
 
 Getting Things Done: Урсгал: **Inbox → Task → Events** (+ Daily = өдөр бүрийн habit). Хураах → тодруулах → зохион байгуулах → тойм → гүйцэтгэх.
 
-| Хавтас | Юу | Загвар |
-|---|---|---|
-| `Daily/` | Өдрийн тэмдэглэл `YYYY-MM-DD.md` | Daily Note |
-| `Tasks/` | Нэг task = нэг файл (`type: task`); самбар = `Tasks.base`-ийн GTD view-ууд | Task |
-| `Inbox/` | Хураалт, ангилаагүй (`type: capture`) | Capture |
-| `Events/` | Уулзалт ба бусад үйл явдал (`type: meeting` / `event`) | Meeting |
+| Хавтас    | Юу                                                                         | Загвар     |
+| --------- | -------------------------------------------------------------------------- | ---------- |
+| `Daily/`  | Өдрийн тэмдэглэл `YYYY-MM-DD.md`                                           | Daily Note |
+| `Tasks/`  | Нэг task = нэг файл (`type: task`); самбар = `Tasks.base`-ийн GTD view-ууд | Task       |
+| `Inbox/`  | Хураалт, ангилаагүй (`type: capture`)                                      | Capture    |
+| `Events/` | Уулзалт ба бусад үйл явдал (`type: meeting` / `event`)                     | Meeting    |
 
 - **Эзэн дүр:** [[GTD]]
 - Task-ийн `status`: `inbox → in-progress → completed` (+ `next-action`, `waiting`, `someday`, `cancelled`; хуучин `done` = `completed`). Нээлттэй = `inbox · next-action · in-progress · waiting`.

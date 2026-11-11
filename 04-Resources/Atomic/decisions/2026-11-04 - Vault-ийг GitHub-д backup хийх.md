@@ -26,4 +26,8 @@ ai-first: true
 
 **Төлөв (2026-11-04):** Анхны push хийгдсэн → https://github.com/jargalq/second-brain (`main`). Дараагийн backup: `git add -A; git commit -m "..."; git push`.
 
+**Автомат backup (2026-11-04, Mugi зөвшөөрсөн):** Windows Task Scheduler-ийн «Vault backup» task өдөр бүр 21:00-д [[_system/backup/vault-backup.ps1]]-г ажиллуулна. Компьютер унтарсан байвал дараагийн асаалтад ажиллана. Өөрчлөлт байвал `auto backup YYYY-MM-DD` commit хийж push хийнэ, үр дүнг `_system/backup/backup.log`-д бичнэ (git-д орохгүй). Зогсоох: `Unregister-ScheduledTask -TaskName "Vault backup"`.
+
+**Автомат backup зогссон (2026-11-04 14:40, Mugi шийдсэн):** «Vault backup» task-ийг устгасан. Backup одоо гараар хийгдэнэ. Script [[_system/backup/vault-backup.ps1]] хэвээр үлдсэн тул гараар ажиллуулж болно, эсвэл task-ийг дахин бүртгэж болно.
+
 **Буцааж болох эсэх:** Болно. `.git` хавтсыг устгавал vault хуучин төлөвтөө орно. GitHub-ийн repo-г тусад нь устгана.

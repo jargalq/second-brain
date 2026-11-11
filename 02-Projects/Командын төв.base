@@ -1,0 +1,82 @@
+filters:
+  and:
+    - '!file.inFolder("_system/templates")'
+    - '!file.inFolder("_trash")'
+    - file.ext == "md"
+formulas:
+  засварласан: (now() - file.mtime).days
+properties:
+  file.name:
+    displayName: Нэр
+  note.шат:
+    displayName: Шат
+  note.дуусах:
+    displayName: Дуусах
+  note.захиалагч:
+    displayName: Захиалагч
+  note.огноо:
+    displayName: Огноо
+  note.цаг:
+    displayName: Цаг
+  note.чухал:
+    displayName: "!"
+  formula.засварласан:
+    displayName: Хөдөлгөөнгүй (хоног)
+views:
+  - type: table
+    name: Төслийн явц
+    filters:
+      and:
+        - or:
+            - note.type == "project"
+            - note.төрөл == "төсөл"
+        - note.төлөв == "идэвхтэй"
+        - file.inFolder("02-Projects")
+    groupBy:
+      property: хүрээ
+      direction: ASC
+    order:
+      - file.name
+      - шат
+      - дуусах
+      - formula.засварласан
+    sort:
+      - property: formula.засварласан
+        direction: ASC
+    columnSize:
+      file.name: 260
+  - type: table
+    name: Өнөөдөр ба хоцорсон
+    filters:
+      and:
+        - file.inFolder("01-GTD/Tasks")
+        - note.төлөв != "хийсэн"
+        - "!note.огноо.isEmpty()"
+        - note.огноо <= today()
+    order:
+      - огноо
+      - цаг
+      - file.name
+      - чухал
+    sort:
+      - property: огноо
+        direction: ASC
+    columnSize:
+      file.name: 300
+  - type: table
+    name: Ойрын 7 хоног
+    filters:
+      and:
+        - file.inFolder("01-GTD/Tasks")
+        - note.төлөв != "хийсэн"
+        - note.огноо > today()
+        - note.огноо <= today() + "7d"
+    order:
+      - огноо
+      - цаг
+      - file.name
+    sort:
+      - property: огноо
+        direction: ASC
+    columnSize:
+      file.name: 300

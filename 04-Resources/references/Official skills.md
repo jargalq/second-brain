@@ -1,6 +1,6 @@
 ---
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-06
 type: reference
 tags:
   - reference
@@ -36,6 +36,7 @@ projects: []
 | **knowledge-work-plugins** (`anthropics/knowledge-work-plugins`)            | `product-management` (spec, sprint) · `marketing` (контент) · `design` (шүүмж) · `brand-voice` · `productivity` — Project, Creative, Area агентууд ашиглана | Заавал биш                                               | `/plugin marketplace add anthropics/knowledge-work-plugins` → `/plugin install <нэр>@knowledge-work-plugins`   |
 | **deep-research** (`anthropic-skills`, Claude Desktop-д бий)                | Олон эх сурвалжийн гүн судалгааг subagent-аар                                                                                                               | Desktop-д аль хэдийн бий                                 | —                                                                                                              |
 | **last30days** (community: `mvanhorn/last30days-skill`, албан ёсны **биш**) | Сүүлийн 30 хоногт Reddit, X, YouTube, TikTok, HN-д хүмүүс юу ярьж байна — тренд, дэгээ хайх (Research, Creative)                                            | Заавал биш                                               | Эх сурвалжийг эзэн өөрөө шалгаж суулгана: github.com/mvanhorn/last30days-skill                                 |
+| **remotion** (`remotion-dev/skills`, Remotion-ийн өөрийн skill, Anthropic-ийнх **биш**) | React кодоор видео бүтээх (Remotion): анимэйшн, хадмал, загвараар олон видео. Creative, контент, сургалтын бичлэгт. Node.js шаардана. **2026-11-06-нд энэ PC-д суулгасан** (Node v26.13.0, global: `~/.claude/skills/remotion-*`, 13 skill; эхлэх: `/remotion-best-practices`). Лиценз: компанийн хэрэглээнд төлбөртэй байж болзошгүй, remotion.dev/license-ээс шалга | Заавал биш (видео хийх үед) | `npx skills add remotion-dev/skills -g -a claude-code -y` (бүх төсөлд) · эх: github.com/remotion-dev/remotion (packages/skills) |
 
 `claude-plugins-official` marketplace ихэвчлэн анхнаасаа бүртгэлтэй. Байхгүй бол: `/plugin marketplace add anthropics/claude-plugins-official`.
 

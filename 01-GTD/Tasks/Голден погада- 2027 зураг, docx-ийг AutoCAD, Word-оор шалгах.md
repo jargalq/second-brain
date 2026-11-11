@@ -1,0 +1,32 @@
+---
+date: 2026-11-07
+type: task
+tags:
+  - task
+ai-first: true
+status: next-action
+context: 
+owner: "me"
+project: "[[02-Projects/Ажил/Голден погада ХХК/03 Уурхайн төлөвлөлт, зураг/Голден погада - 2027 оны уулын ажлын төлөвлөгөө]]"
+responsible: me
+accountable: project
+consulted: []
+informed: ["me"]
+due: 
+started:
+completed:
+priority: medium
+aliases:
+  - "Голден погада: 2027 оны зураг, docx-ийг AutoCAD, Word-оор нүдээр шалгах"
+---
+
+# Голден погада: 2027 оны зураг, docx-ийг AutoCAD, Word-оор нүдээр шалгах
+
+## Next action
+- Claude ezdxf, ODA-аар гаргасан DWG (№2–9), PDF-ийг AutoCAD-тай компьютер дээр нээж, хэвлэлтийг шалгах.
+- Ноорог `oyut-ovoo_plan-2027_draft_2026-11-06_v3.docx` ба `Худгийн_бүлэг_Оюут-Овоо_2026-11-06.docx`-ийг Word-оор нээж формат шалгах.
+- АМГТГ-ын «Хүлээн авсан» (С.Ган-Очир), «Танилцсан» (П.Зоригт) албан тушаалтан 2027 онд өөрчлөгдсөн эсэхийг тодруулах.
+
+## Явц
+- 2026-11-07 📌 үүсгэв (update all, 2026-11-06-ны сешнээс)
+- 2026-11-09: PDF-ийг Claude ezdxf, PyMuPDF-ээр гаргасан (`Plan 2027\zurag\PDF\`, 10 хуудас, нүдээр шалгасан) → [[2026-11-06 - PDF-ийг AutoCAD-гүй ezdxf, PyMuPDF-ээр вектор гаргах]]. AutoCAD-ын хэвлэлттэй нэг удаа харьцуулах, v3 docx-ийн «PDF-ийг AutoCAD-аар хэвлэнэ» өгүүлбэрийг засах үлдсэн.

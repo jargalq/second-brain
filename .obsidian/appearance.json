@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
     "tezu-bonnu",
-    "projects-colors"
+    "projects-colors",
+    "command-center"
   ]
 }

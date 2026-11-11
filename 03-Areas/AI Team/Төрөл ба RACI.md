@@ -41,6 +41,6 @@ Task бүрийн frontmatter-т дөрвөн талбар:
 
 ## Хаанаас харах вэ
 
-- Ангиллын бүх note: `04-Resources/Taxonomy/Ангилал.base`
+- Ангиллын бүх note: `04-Resources/Ангилал.base`
 - Task-ууд төрлөөр: `01-GTD/Tasks.base`
 - Төслүүд төрлөөр: `02-Projects/Projects.base`
