@@ -141,6 +141,14 @@
       "folder": "02-Projects/Ажил/Зунхуа инси куан ХХК",
       "group": "projects",
       "since": "2026-11-09"
+    },
+    "session_011THyf66PAPsjhUGS2P6pWy": {
+      "role": "project",
+      "project": "02-Projects/Гачууртын байшин/",
+      "device": "cloud",
+      "title": "📁 Гачууртын байшин",
+      "registered": "2026-11-11",
+      "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
     }
   },
   "roles": {
