@@ -1,6 +1,15 @@
 {
   "version": 1,
-  "sessions": {},
+  "sessions": {
+    "session_011THyf66PAPsjhUGS2P6pWy": {
+      "role": "project",
+      "project": "02-Projects/Гачууртын байшин/",
+      "device": "cloud",
+      "title": "📁 Гачууртын байшин",
+      "registered": "2026-11-11",
+      "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
+    }
+  },
   "roles": {
     "project": {
       "note": "03-Areas/AI Team/ai-workers/Project.md",
