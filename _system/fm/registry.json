@@ -149,6 +149,16 @@
       "title": "📁 Гачууртын байшин",
       "registered": "2026-11-11",
       "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
+    },
+    "session_011THyf2qE1b9uwRHVy2wh8A": {
+      "role": "project",
+      "device": "cloud",
+      "title": "📁 Төвийн бүс",
+      "project": "central-food-park",
+      "folder": "02-Projects/Ажил/Төвийн бүсийн хүнс, хөнгөн үйлдвэрлэл технологийн цогцолбор ТӨХХК",
+      "group": "projects",
+      "since": "2026-11-12",
+      "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
     }
   },
   "roles": {
