@@ -8,7 +8,7 @@ priority: 🟡
 due: 
 project: "[[02-Projects/Second Brain Season 2/Second Brain Season 2 - Way Academy]]"
 responsible: me
-accountable: project
+accountable: me
 informed: ["me"]
 waiting_on: me
 tags:

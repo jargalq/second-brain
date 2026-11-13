@@ -59,6 +59,8 @@ views:
       - file.name
       - чухал
     sort:
+      - property: чухал
+        direction: DESC
       - property: огноо
         direction: ASC
     columnSize:

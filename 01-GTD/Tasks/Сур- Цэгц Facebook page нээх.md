@@ -1,11 +1,11 @@
----
+---
 date: 2026-11-05
 type: task
 tags:
   - task
 ai-first: true
 # status: inbox | next-action | in-progress | waiting | someday | completed | cancelled
-status: next-action
+status: cancelled
 context: work
 owner: "me"
 project: "[[02-Projects/Цэгц/Сур - арьс ширний бүртгэлийн програм]]"
@@ -29,7 +29,7 @@ outputs: []    # гаралтын эх сурвалж: [[Output/...]] эсвэл
 due: 2026-11-06
 # started / completed: YYYY-MM-DD HH:MM (эхлэх / дуусах үед) · claimed: PC | Mac (auto-claim бичнэ)
 started:
-completed:
+completed: 2026-11-13
 claimed:
 priority: high
 aliases:
@@ -87,3 +87,4 @@ aliases:
 
 ## Явц
 - 2026-11-05 23:59 📌 үүсгэв
+- 2026-11-13 (GTD): Mugi: «больсон» — цуцлав.

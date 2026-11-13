@@ -7,13 +7,13 @@ ai-first: true
 # status: inbox | next-action | in-progress | waiting | someday | completed | cancelled
 status: next-action
 context: work
-owner: "me"
+owner: architect
 project: "[[02-Projects/Цэгц/Сур - арьс ширний бүртгэлийн програм]]"
 step:          # төслийн step (_BRAIN.md «Step ба milestone»), жишээ "S2 · Дизайн ба прототип"
 projects: []      # олон төсөл: бүх холбогдох төсөл (project: = гол нь)
 # RACI (2026-10-14): responsible = хийх дүр (анхдагч owner) · accountable = ганц эцсийн хариуцагч (анхдагч owner)
 # consulted = дуусгахаас өмнө асуух дүр/төсөл · informed = мэдээлэх дүр/төсөл (projects-ийн бусад төсөл автоматаар)
-responsible: me
+responsible: architect
 accountable: project
 consulted: []
 informed: ["me"]

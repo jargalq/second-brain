@@ -7,13 +7,13 @@ ai-first: true
 # status: inbox | next-action | in-progress | waiting | someday | completed | cancelled
 status: completed
 context: work
-owner: "@dairga"
+owner: dairga
 project: "[[02-Projects/Ажил/Хөхтойн ХХК/Хөхтойн ХХК - төсөл]]"
 step:          # төслийн step (_BRAIN.md «Step ба milestone»), жишээ "S2 · Дизайн ба прототип"
 projects: []      # олон төсөл: бүх холбогдох төсөл (project: = гол нь)
 # RACI (2026-10-14): responsible = хийх дүр (анхдагч owner) · accountable = ганц эцсийн хариуцагч (анхдагч owner)
 # consulted = дуусгахаас өмнө асуух дүр/төсөл · informed = мэдээлэх дүр/төсөл (projects-ийн бусад төсөл автоматаар)
-responsible: @dairga
+responsible: dairga
 accountable: project
 consulted: []
 informed: ["me"]

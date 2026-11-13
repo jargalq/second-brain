@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "01-GTD/Inbox",
-  "attachmentFolderPath": "04-Resources/Attachments"
+  "attachmentFolderPath": "04-Resources/Attachments",
+  "mobilePullAction": "workspace:export-pdf"
 }

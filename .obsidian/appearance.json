@@ -2,7 +2,8 @@
   "enabledCssSnippets": [
     "tezu-bonnu",
     "projects-colors",
-    "command-center"
+    "command-center",
+    "life-planner"
   ],
   "cssTheme": "Willemstad",
   "theme": "obsidian"

@@ -9,6 +9,8 @@ due:
 project: "[[02-Projects/Жишээ төсөл/Жишээ төсөл]]"
 tags: [task]
 ai-first: true
+responsible: me
+accountable: me
 ---
 
 # Жишээ - Vault-аа Claude-д нээх

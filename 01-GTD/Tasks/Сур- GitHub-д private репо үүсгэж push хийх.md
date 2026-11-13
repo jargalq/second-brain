@@ -7,7 +7,7 @@ ai-first: true
 # status: inbox | next-action | in-progress | waiting | someday | completed | cancelled
 status: inbox
 context: work
-owner: "💼 Project"
+owner: architect
 project: "[[02-Projects/Цэгц/Сур - арьс ширний бүртгэлийн програм]]"
 step:          # төслийн step (_BRAIN.md «Step ба milestone»), жишээ "S2 · Дизайн ба прототип"
 projects: []      # олон төсөл: бүх холбогдох төсөл (project: = гол нь)

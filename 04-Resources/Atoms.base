@@ -21,6 +21,8 @@ views:
     sort:
       - property: file.mtime
         direction: DESC
+    columnSize:
+      file.name: 385
   - type: table
     name: Өнөөдөр (бодлын сешн)
     filters:

@@ -15,7 +15,7 @@ projects: []      # олон төсөл: бүх холбогдох төсөл (p
 # consulted = дуусгахаас өмнө асуух дүр/төсөл · informed = мэдээлэх дүр/төсөл (projects-ийн бусад төсөл автоматаар)
 responsible: project
 accountable: project
-consulted: []
+consulted: ["wiki"]
 informed: ["me"]
 device:           # PC | Mac — зөвхөн тэр машин claim хийнэ (хоосон = аль нь ч)
 activity:   # Key Activity (шат): [[03-Areas/Business/activities/<Activity>]]

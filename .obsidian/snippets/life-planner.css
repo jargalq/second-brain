@@ -1,0 +1,194 @@
+/* Амьдралын төлөвлөгч: бараан картан dashboard. Зөвхөн cssclasses: life-planner бүхий note-д нөлөөлнө. */
+
+.life-planner {
+  --lp-bg: #070a14;
+  --lp-panel: #0e1324;
+  --lp-panel-2: #131a30;
+  --lp-line: #1f2742;
+  --lp-text: #e6e9f5;
+  --lp-dim: #8a93b2;
+  --lp-faint: #4b5475;
+  --lp-accent: #7c5cff;
+  --lp-track: #1e2540;
+  --background-primary: var(--lp-bg);
+  --text-normal: var(--lp-text);
+  --text-muted: var(--lp-dim);
+  background-color: var(--lp-bg) !important;
+  color: var(--lp-text);
+}
+.life-planner .metadata-container,
+.life-planner .inline-title,
+.life-planner .mod-header,
+.life-planner .embedded-backlinks { display: none !important; }
+.life-planner.markdown-preview-view,
+.life-planner .markdown-preview-view { padding: 12px 16px 40px !important; }
+.life-planner.is-readable-line-width .markdown-preview-sizer,
+.life-planner .markdown-preview-sizer { max-width: none !important; width: 100% !important; }
+.life-planner .block-language-dataviewjs { margin: 0; }
+
+/* ---------- бүтэц ---------- */
+.lp-root { font-size: 13px; line-height: 1.4; }
+.lp-shell { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 16px; }
+.lp-main { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.lp-link { color: inherit !important; text-decoration: none !important; cursor: pointer; }
+.lp-link:hover { color: #fff !important; text-decoration: underline !important; }
+
+/* ---------- зүүн цэс ---------- */
+.lp-side {
+  background: var(--lp-panel); border: 1px solid var(--lp-line); border-radius: 14px;
+  padding: 18px 12px; display: flex; flex-direction: column; gap: 18px;
+  position: sticky; top: 8px; align-self: start; min-height: 640px;
+}
+.lp-logo { width: 38px; height: 38px; border-radius: 9px; background: #fff; color: #000; display: grid; place-items: center; font-size: 20px; font-weight: 800; margin-bottom: 10px; }
+.lp-brand-name { font-size: 19px; font-weight: 800; color: #fff; line-height: 1.15; }
+.lp-brand-sub { color: var(--lp-dim); font-size: 11px; margin-top: 4px; }
+.lp-nav { display: flex; flex-direction: column; gap: 4px; }
+.lp-nav-item { display: flex; gap: 10px; align-items: center; padding: 9px 10px; border-radius: 9px; color: var(--lp-dim) !important; }
+.lp-nav-item:hover { background: var(--lp-panel-2); text-decoration: none !important; }
+.lp-nav-item.is-active { background: linear-gradient(90deg, #2c2470, #1d1a4d); color: #fff !important; box-shadow: inset 0 0 0 1px #3d33a0; }
+.lp-nav-ico { width: 18px; text-align: center; }
+.lp-side-foot { margin-top: auto; color: var(--lp-dim); font-size: 12px; }
+.lp-side-quote { color: var(--lp-text); }
+.lp-side-src { margin-top: 6px; padding-top: 6px; border-top: 2px solid var(--lp-accent); width: 40px; white-space: nowrap; font-size: 10px; color: var(--lp-faint); }
+
+/* ---------- hero ---------- */
+.lp-hero {
+  position: relative; border-radius: 14px; overflow: hidden; min-height: 190px; padding: 26px 30px;
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 20px;
+  border: 1px solid var(--lp-line);
+  background:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 220' preserveAspectRatio='none'><path d='M0 220 L0 150 L120 95 L210 130 L330 60 L430 120 L520 85 L640 140 L760 70 L860 110 L960 50 L1080 115 L1200 80 L1200 220Z' fill='%23161c36'/><path d='M0 220 L0 185 L150 140 L260 170 L400 125 L540 175 L680 135 L820 180 L950 140 L1100 170 L1200 150 L1200 220Z' fill='%230b0f1f'/><path d='M960 50 L985 66 L972 68 L960 58 L948 68 L937 66Z' fill='%23c9cbe0' opacity='.5'/></svg>") bottom / 100% 70% no-repeat,
+    radial-gradient(ellipse at 78% 75%, rgba(255, 150, 80, .55), transparent 45%),
+    linear-gradient(180deg, #12183a 0%, #3a2a5c 55%, #a8566a 85%, #e08a5a 100%);
+}
+.lp-hero-date { display: inline-block; font-size: 11px; color: #d6d9ee; background: rgba(0,0,0,.35); padding: 3px 10px; border-radius: 20px; margin-bottom: 8px; }
+.lp-hero-title { font-size: 40px !important; font-weight: 800 !important; margin: 0 !important; color: #fff !important; letter-spacing: -.5px; text-shadow: 0 2px 18px rgba(0,0,0,.5); border: 0 !important; }
+.lp-hero-sub { color: #e8e6f5; margin-top: 4px; }
+.lp-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.lp-chip { font-size: 11px; background: rgba(10, 12, 30, .55); border: 1px solid rgba(255,255,255,.15); padding: 3px 9px; border-radius: 20px; color: #eef; backdrop-filter: blur(4px); }
+.lp-hero-quote { font-family: "Segoe Script", "Brush Script MT", cursive; font-size: 18px; color: #fff; text-align: right; max-width: 280px; transform: rotate(-6deg); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+
+/* ---------- статистик ---------- */
+.lp-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.lp-stat { position: relative; background: var(--lp-panel); border: 1px solid var(--lp-line); border-radius: 14px; padding: 14px 16px; }
+.lp-stat-ico { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; background: var(--lp-c); font-size: 17px; margin-bottom: 10px; box-shadow: 0 0 18px color-mix(in srgb, var(--lp-c) 45%, transparent); }
+.lp-stat-label { color: var(--lp-text); }
+.lp-stat-value { font-size: 28px; font-weight: 800; color: #fff; margin: 2px 0 6px; }
+.lp-stat-sub { font-size: 11px; color: var(--lp-c); margin-top: 6px; }
+
+/* ---------- карт ---------- */
+.lp-grid {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas:
+    "cal cal focus"
+    "cal cal notes"
+    "habits goals quote"
+    "journal journal week";
+}
+.lp-cal { grid-area: cal; } .lp-focus { grid-area: focus; } .lp-notes { grid-area: notes; }
+.lp-habits { grid-area: habits; } .lp-goals { grid-area: goals; } .lp-quote { grid-area: quote; }
+.lp-journal { grid-area: journal; } .lp-week { grid-area: week; }
+.lp-card { background: var(--lp-panel); border: 1px solid var(--lp-line); border-radius: 14px; padding: 14px 16px; min-width: 0; display: flex; flex-direction: column; }
+.lp-card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.lp-ico { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--lp-panel-2); border: 1px solid var(--lp-line); font-size: 13px; }
+.lp-card-title { font-weight: 700; font-size: 14px; color: #fff; }
+.lp-head-link { margin-left: auto; font-size: 11px; color: var(--lp-dim) !important; }
+.lp-card-foot { margin-top: auto; padding-top: 10px; font-size: 11px; color: var(--lp-dim); }
+.lp-sub { font-size: 11px; color: var(--lp-dim); margin: 6px 0 4px; text-transform: uppercase; letter-spacing: .06em; }
+.lp-empty { color: var(--lp-faint); font-style: italic; font-size: 12px; padding: 4px 0; }
+.lp-bar { height: 6px; background: var(--lp-track); border-radius: 6px; overflow: hidden; }
+.lp-bar-fill { height: 100%; border-radius: 6px; background: var(--lp-accent); }
+
+/* ---------- календарь ---------- */
+.lp-cal-nav { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+.lp-cal-month { min-width: 120px; text-align: center; color: var(--lp-text); }
+.lp-btn { background: var(--lp-panel-2) !important; border: 1px solid var(--lp-line) !important; color: var(--lp-text) !important; border-radius: 7px !important; padding: 2px 10px !important; height: 26px !important; box-shadow: none !important; cursor: pointer; font-size: 12px !important; }
+.lp-btn-accent { background: #4b3bd6 !important; border-color: #5a49f0 !important; }
+.lp-cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--lp-line); border-left: 1px solid var(--lp-line); }
+.lp-cal-wd { text-align: center; color: var(--lp-dim); font-size: 11px; padding: 6px 0; border-right: 1px solid var(--lp-line); border-bottom: 1px solid var(--lp-line); }
+.lp-cal-cell { min-height: 84px; padding: 4px; border-right: 1px solid var(--lp-line); border-bottom: 1px solid var(--lp-line); display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.lp-cal-cell.is-out { opacity: .35; }
+.lp-cal-cell.is-today { background: rgba(124, 92, 255, .1); }
+.lp-cal-num { font-size: 11px; color: var(--lp-dim); width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; }
+.lp-cal-num.has-daily { color: var(--lp-text); cursor: pointer; text-decoration: underline dotted var(--lp-faint); }
+.lp-cal-cell.is-today .lp-cal-num { background: var(--lp-accent); color: #fff; }
+.lp-tag { display: block; font-size: 10px; line-height: 1.25; padding: 2px 5px; border-radius: 5px; border-left: 3px solid; min-width: 0; }
+.lp-tag-text { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-tag-time { display: block; opacity: .75; font-size: 9px; }
+.lp-tag-event { background: #3a1f10; border-color: #f97316; color: #fdc9a3 !important; }
+.lp-tag-work  { background: #16204a; border-color: #3b82f6; color: #b9d0ff !important; }
+.lp-tag-home  { background: #0f2e22; border-color: #22c55e; color: #aaf0c6 !important; }
+.lp-tag-other { background: #26184a; border-color: #8b5cf6; color: #d5c6ff !important; }
+.lp-tag-done  { background: #151a2c; border-color: #4b5475; color: #6f7899 !important; text-decoration: line-through !important; }
+.lp-more { font-size: 10px; color: var(--lp-dim); }
+.lp-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; font-size: 11px; color: var(--lp-dim); }
+.lp-leg { display: inline-flex; align-items: center; gap: 5px; }
+.lp-leg i { width: 10px; height: 10px; border-radius: 3px; border-left: 3px solid; display: inline-block; }
+
+/* ---------- checklist ---------- */
+.lp-check { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--lp-line); }
+.lp-box { width: 16px; height: 16px; flex: none; border-radius: 4px; border: 1.5px solid var(--lp-faint); display: grid; place-items: center; font-size: 11px; color: #fff; }
+.lp-check.is-done .lp-box { background: var(--lp-accent); border-color: var(--lp-accent); }
+.lp-check.is-done .lp-check-text { text-decoration: line-through !important; color: var(--lp-faint) !important; }
+.lp-check-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lp-pill { flex: none; font-size: 10px; padding: 2px 8px; border-radius: 6px; border: 1px solid; border-left-width: 1px; }
+.lp-pill-warn { background: #3a1f10; border-color: #f97316; color: #fdc9a3; }
+.lp-bullet { padding: 3px 0 3px 14px; position: relative; color: var(--lp-text); }
+.lp-bullet::before { content: "•"; position: absolute; left: 2px; color: var(--lp-accent); }
+
+/* ---------- дадал ---------- */
+.lp-hgrid { display: grid; grid-template-columns: minmax(90px, 1.6fr) repeat(7, minmax(18px, 1fr)); gap: 8px 4px; align-items: center; }
+.lp-hhead { font-size: 10px; color: var(--lp-dim); text-align: center; }
+.lp-hhead:first-child { text-align: left; }
+.lp-hhead.is-today { color: #fff; font-weight: 700; }
+.lp-hname { display: flex; align-items: center; gap: 7px; white-space: nowrap; overflow: hidden; }
+.lp-hico { width: 22px; height: 22px; border-radius: 6px; display: grid; place-items: center; background: var(--lp-panel-2); font-size: 12px; flex: none; }
+.lp-dot { width: 18px; height: 18px; border-radius: 50%; justify-self: center; display: grid; place-items: center; font-size: 10px; color: #04140a; font-weight: 800; }
+.lp-dot.is-on { background: #22c55e; }
+.lp-dot.is-off { border: 1.5px solid var(--lp-faint); }
+.lp-dot.is-none { border: 1.5px dashed var(--lp-line); }
+
+/* ---------- төслийн явц ---------- */
+.lp-goal { display: grid; grid-template-columns: 34px minmax(0, 1fr) 40px; gap: 10px; align-items: center; padding: 7px 0; }
+.lp-goal-ico { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; color: #fff; }
+.lp-goal-name { font-weight: 600; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-goal-sub { font-size: 10px; color: var(--lp-dim); margin: 1px 0 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-goal-pct { text-align: right; font-size: 12px; color: var(--lp-text); }
+
+/* ---------- journal ---------- */
+.lp-jrow { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--lp-line); }
+.lp-jdate { font-size: 11px; color: var(--lp-dim); }
+.lp-jtitle { font-weight: 600; }
+.lp-jtext { font-size: 11px; color: var(--lp-dim); margin-top: 2px; }
+
+/* ---------- ишлэл ---------- */
+.lp-quote {
+  background:
+    radial-gradient(ellipse at 85% 100%, rgba(34, 197, 94, .18), transparent 55%),
+    linear-gradient(160deg, #101a2e, #0a0f1d);
+}
+.lp-quote-mark { font-size: 46px; line-height: .6; color: var(--lp-dim); margin-top: 10px; }
+.lp-quote-text { font-size: 19px; font-weight: 600; color: #fff; line-height: 1.35; margin: 8px 0 14px; }
+.lp-quote-src { font-size: 11px; color: var(--lp-dim); border-top: 2px solid var(--lp-accent); padding-top: 6px; display: inline-block; }
+
+/* ---------- 7 хоног ---------- */
+.lp-wrow { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 6px 0; }
+.lp-ring { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; }
+.lp-ring span { width: 28px; height: 28px; border-radius: 50%; background: var(--lp-panel); display: grid; place-items: center; font-size: 9px; color: var(--lp-text); }
+.lp-wval { font-size: 12px; color: var(--lp-dim); }
+
+.lp-foot { font-size: 10px; color: var(--lp-faint); text-align: right; }
+
+/* ---------- жижиг дэлгэц ---------- */
+@media (max-width: 1250px) {
+  .lp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "cal cal" "focus notes" "habits goals" "quote week" "journal journal"; }
+  .lp-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 900px) {
+  .lp-shell { grid-template-columns: 1fr; }
+  .lp-side { position: static; min-height: 0; }
+  .lp-nav { flex-direction: row; flex-wrap: wrap; }
+  .lp-grid { grid-template-columns: 1fr; grid-template-areas: "cal" "focus" "notes" "habits" "goals" "quote" "week" "journal"; }
+  .lp-hero-quote { display: none; }
+}

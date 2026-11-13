@@ -6,9 +6,9 @@ tags:
 ai-first: true
 status: next-action
 context: 
-owner: "me"
+owner: project
 project: "[[02-Projects/Ажил/Голден погада ХХК/03 Уурхайн төлөвлөлт, зураг/Голден погада - 2027 оны уулын ажлын төлөвлөгөө]]"
-responsible: me
+responsible: project
 accountable: project
 consulted: []
 informed: ["me"]

@@ -236,7 +236,6 @@
       "since": "2026-11-12"
     },
     "850e0a95-462b-4738-a5b6-88ef71431861": {
-      "role": "project",
       "device": "PC",
       "title": "📁 Талын элч › Хүрэн уул",
       "project": "talyn-elch",
@@ -290,6 +289,94 @@
       "group": "projects",
       "since": "2026-11-12",
       "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
+    },
+    "46abfca3-5460-46b4-8bcb-7edf2c3a1456": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Талын элч › Хүрэн уул",
+      "project": "talyn-elch",
+      "folder": "02-Projects/Ажил/Талын элч ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "307f7483-ef80-4cd8-892a-8d700d8cf475": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо ХХК",
+      "project": "khoshuu-ovoo",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "325045d4-a4a9-438a-a6cd-6be793965d02": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Бичвэр",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-bichver",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "6c0fba5d-0ad1-4271-9eb4-1e6d4bf71e6a": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Уурхайн зураг",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-uurhai-zurag",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "834b737a-5771-4fac-9bca-e6ec350e153f": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Эдийн засаг",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-ediin-zasag",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "946e5dff-0d4a-4ca2-b956-cc078983645f": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Бусад зураг",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-busad-zurag",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "1d1d0a9b-2ce1-4f2c-a5e8-d11ed9149235": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Бусад зураг",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-busad-zurag",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "93fc69e5-da4a-43fb-a8b6-354b5b177071": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Уурхайн зураг",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-uurhai-zurag",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
+    },
+    "0903e176-f6bc-4b86-9237-3ce73f3f162c": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хошуу овоо › Бичвэр",
+      "project": "khoshuu-ovoo",
+      "baton": "khoshuu-ovoo-bichver",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
     }
   },
   "roles": {
