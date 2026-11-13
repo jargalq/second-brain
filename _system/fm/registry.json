@@ -290,6 +290,16 @@
       "group": "projects",
       "since": "2026-11-12",
       "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
+    },
+    "session_011THyf2hdMSD8iXHLZP7CMo": {
+      "role": "project",
+      "device": "cloud",
+      "title": "📁 Хошуу овоо ХХК",
+      "project": "khoshuu-ovoo",
+      "folder": "02-Projects/Ажил/Хошуу овоо ХХК",
+      "group": "projects",
+      "since": "2026-11-13",
+      "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
     }
   },
   "roles": {
