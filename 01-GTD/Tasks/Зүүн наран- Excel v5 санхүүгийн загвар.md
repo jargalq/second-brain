@@ -6,10 +6,10 @@ tags:
 ai-first: true
 status: next-action
 context: work
-owner: "me"
+owner: project
 project: "[[02-Projects/Ажил/Хөхтойн ХХК/Зүүн наран/Зүүн наран - ашиглалт 2027]]"
 projects: []
-responsible: me
+responsible: project
 accountable: project
 consulted: []
 informed: ["me"]
@@ -18,7 +18,7 @@ task-type:
 requested_by:
 up: "[[01-GTD/Tasks/Tasks]]"
 next_action: "Таамаг оролтыг (кемп, цамхаг, генераторын түлш, дизелийн үнэ) үнийн санал, каталогоор солих"
-outputs: ["D:/Great Vision project/069 Khukhtoin/Зүүн наран/02 ТЭЗҮ/02 Эдийн засаг/econ_2026-11-06/ZN_2026.11.06_v5_150km3_5jil.xlsx", "D:/Great Vision project/069 Khukhtoin/Зүүн наран/02 ТЭЗҮ/02 Эдийн засаг/econ_2026-11-09/ZN_2026.11.09_v5.1_150km3_5jil_43hun.xlsx"]
+outputs: ["D:/PARA/1-Projects/Great Vision project/069 Khukhtoin/Зүүн наран/02 ТЭЗҮ/02 Эдийн засаг/econ_2026-11-06/ZN_2026.11.06_v5_150km3_5jil.xlsx", "D:/PARA/1-Projects/Great Vision project/069 Khukhtoin/Зүүн наран/02 ТЭЗҮ/02 Эдийн засаг/econ_2026-11-09/ZN_2026.11.09_v5.1_150km3_5jil_43hun.xlsx"]
 due: 2026-11-20
 started: 2026-11-06
 completed:

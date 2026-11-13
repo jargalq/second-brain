@@ -13,7 +13,7 @@ from pypdf import PdfReader
 sys.path.insert(0, r"D:\Seond brain\_system\skills\zurag-shtamp")
 from gv_stamp import draw_stamp
 
-ROOT = r"D:\Great Vision project\077 NCGT"
+ROOT = r"D:\PARA\1-Projects\Great Vision project\077 NCGT"
 OUT = os.path.dirname(os.path.abspath(__file__))
 NAME = "XV-017716_100x20_tuluvlugu"
 OX, OY = 354703.081, 5085364.816     # GP-26020

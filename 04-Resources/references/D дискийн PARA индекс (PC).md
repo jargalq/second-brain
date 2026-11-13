@@ -85,5 +85,5 @@ Mugi: «mongol standart энэ бол тусдаа төсөл». `3-Resources\С
 
 ## Явц
 
-- ✅ 2026-11-11: `D:\Great Vision project` (191 GB) эхэндээ түгжээтэй байсан. Word хаасны дараа `1-Projects`-д зөөж, хуучин замд junction үлдээв (vault-д 628 холбоос).
+- ✅ 2026-11-11: `D:\PARA\1-Projects\Great Vision project` (191 GB) эхэндээ түгжээтэй байсан. Word хаасны дараа `1-Projects`-д зөөж, хуучин замд junction үлдээв (vault-д 628 холбоос).
 - [[2026-11-11 - D дискийг D PARA-д junction-тэй зөөсөн]]

@@ -5,7 +5,7 @@ tags:
   - task
 ai-first: true
 # status: inbox | next-action | in-progress | waiting | someday | completed | cancelled
-status: waiting
+status: in-progress
 context: work
 owner: "architect"
 project: 
@@ -91,3 +91,5 @@ related: ["[[04-Resources/Atomic/decisions/2026-11-05 - Second Brain самба�
 ## Явц
 - 2026-11-05 23:58 📌 үүсгэв
 - 2026-11-06 🏛️ Architect шалгав: шинэчлэлт **ажиллаагүй**. `_system/dashboard/second_brain_dashboard.py` скрипт vault-д байхгүй (git, `_trash`-д ч алга), `_system/dashboard/data/` хоосон. Scheduled task-ийн жагсаалтад самбарын task байхгүй, зөвхөн `gv-eng-2025q4-mail-watch` бий. 2026-11-05-ны тохиргоо хадгалагдаагүй бололтой. Дахин бүтээх эсэхийг Mugi шийднэ.
+- 2026-11-13 14:40 🏛️ Architect дахин бүтээв (GTD-ээр дамжсан Mugi-ийн «шинэчлэлт хий»): `_system/dashboard/second_brain_dashboard.py` скрипт бичив (task, төсөл, Inbox, 30 хоногийн идэвх, PARA тоо → `_system/dashboard/data/*.json`; «completed»-ийг «хийсэн» болгож, цуцалсныг хасна). Scheduled task `second-brain-dashboard-refresh` өдөр бүр 07:00 (апп 07:06 орчим) — скрипт ажиллуулж 5 файлыг самбарт upload хийж, хуучныг устгаад лог мөр бичнэ. Гараар нэг удаа ажиллуулж самбарын өгөгдлийг 2026-11-13-аар солив (141 task, 33 төсөл, Inbox 0). Тэмдэглэл: 11-13 07:07-д самбарт өөр газраас (энэ PC-ийн routine биш) шинэчлэлт орсон байсан — эх үүсвэр тодорхойгүй.
+- Дараагийн алхам: 2026-11-14 07:00-ийн автомат ажиллагааг шалгах (лог `_system/logs/2026-11-14.md`, самбарын Sources). Анх ажиллахад зөвшөөрөл асууж зогсож магадгүй — Mugi Scheduled → «Run now» дарж нэг удаа зөвшөөрвөл дараа нь асуухгүй.

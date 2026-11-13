@@ -13,7 +13,7 @@ sys.path.insert(0, r"D:\Seond brain\_system\skills\zurag-shtamp")
 from gv_stamp import draw_stamp
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = r"D:\Great Vision project\077 NCGT"
+ROOT = r"D:\PARA\1-Projects\Great Vision project\077 NCGT"
 D26 = os.path.join(ROOT, "03 DRILLING 2026 - XV-017716 ONLY")
 OUT = os.path.dirname(os.path.abspath(__file__))
 NAME = "XV-017716_urumdsun_baidal"

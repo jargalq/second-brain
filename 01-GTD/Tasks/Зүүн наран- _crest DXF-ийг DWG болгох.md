@@ -14,7 +14,7 @@ responsible: me
 ---
 # Зүүн наран: шинэ амсрын 8 DXF-ийг DWG болгох
 
-AutoCAD-ыг цонхтой нээгээд `dxf2dwg_groups.ps1 <dxf> <dwg>`-ийг ажиллуулна ([[2026-11-12 - DXF-ийг DWG болгоход AutoCAD-ыг цонхтой нээ]]). Хавтас `D:/Great Vision project/069 Khukhtoin/Зүүн наран/03 Уурхайн төлөвлөлт, зураг/zurag_2026-11-02/`.
+AutoCAD-ыг цонхтой нээгээд `dxf2dwg_groups.ps1 <dxf> <dwg>`-ийг ажиллуулна ([[2026-11-12 - DXF-ийг DWG болгоход AutoCAD-ыг цонхтой нээ]]). Хавтас `D:/PARA/1-Projects/Great Vision project/069 Khukhtoin/Зүүн наран/03 Уурхайн төлөвлөлт, зураг/zurag_2026-11-02/`.
 
 - [ ] №5 `ZN_erunhii_devsger_2026-11-12_crest`
 - [ ] №7 `ZN_1r_jil_2026-11-12_crest`, №9 `ZN_2r_jil_2026-11-12_crest`

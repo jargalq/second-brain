@@ -19,7 +19,7 @@ tags: [project-brain, төсөл, Төвийн-бүс, төлөв-байдал, 
 
 ## For future agent
 
-Сешн: **📁 Төвийн бүс** (Project agent). Төслийн хавтас `02-Projects/Ажил/Төвийн бүсийн хүнс, хөнгөн үйлдвэрлэл технологийн цогцолбор ТӨХХК/` — зөвхөн энд бичнэ. Baton: `_system/fm/state/central-food-park.md`. Эх файлын индекс: [[Төвийн бүс - ажлын хавтас]] (`D:\Great Vision project\067 tuv`, 110 файл).
+Сешн: **📁 Төвийн бүс** (Project agent). Төслийн хавтас `02-Projects/Ажил/Төвийн бүсийн хүнс, хөнгөн үйлдвэрлэл технологийн цогцолбор ТӨХХК/` — зөвхөн энд бичнэ. Baton: `_system/fm/state/central-food-park.md`. Эх файлын индекс: [[Төвийн бүс - ажлын хавтас]] (`D:\PARA\1-Projects\Great Vision project\067 tuv`, 110 файл).
 
 ## 🎯 Нэг мөрөөр
 
