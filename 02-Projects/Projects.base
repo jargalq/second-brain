@@ -48,7 +48,7 @@ views:
         direction: DESC
     columnSize:
       formula.status_icon: 40
-      file.basename: 246
+      file.basename: 210
   - type: table
     name: 🏠 Home
     filters:
@@ -94,7 +94,7 @@ views:
       - area
     columnSize:
       formula.status_icon: 40
-      file.basename: 330
+      file.basename: 200
   - type: table
     name: Дэд төслүүд
     groupBy:

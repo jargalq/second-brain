@@ -3,5 +3,7 @@
     "tezu-bonnu",
     "projects-colors",
     "command-center"
-  ]
+  ],
+  "cssTheme": "Willemstad",
+  "theme": "obsidian"
 }

@@ -33,10 +33,19 @@ XM = 137.5                             # дунд хэсгийн баруун х
 XR = 164.0                             # Цаасны хэмжээ | Масштаб
 
 
-def draw_stamp(fig, page_w_mm, page_h_mm, right_mm, bottom_mm, info, fs=10):
+# Хэмжээ (Mugi 2026-11-12): ТЭЗҮ, БОННҮ = 185 × 55 мм (одоогийн).
+# Хайгуулын тайлан = ГМТ-ийн заавраар 140 × 80 мм-ээс ихгүй → ижил загварыг 140/185 харьцаагаар жижигрүүлнэ (140 × 41.6 мм).
+KIND_WIDTH = {"tezu": 185.0, "haiguul": 140.0}
+
+
+def draw_stamp(fig, page_w_mm, page_h_mm, right_mm, bottom_mm, info, fs=10, kind="tezu"):
+    """kind: "tezu" (ТЭЗҮ, БОННҮ г.м., 185 × 55) эсвэл "haiguul" (хайгуулын тайлан, 140 × 41.6)."""
     d = dict(DEFAULT); d.update(info)
-    x0, y0 = right_mm - W, bottom_mm
-    ax = fig.add_axes([x0 / page_w_mm, y0 / page_h_mm, W / page_w_mm, H / page_h_mm])
+    k = KIND_WIDTH[kind] / W               # физик хэмжээний коэффициент
+    fs = fs * k
+    pw, ph = W * k, H * k
+    x0, y0 = right_mm - pw, bottom_mm
+    ax = fig.add_axes([x0 / page_w_mm, y0 / page_h_mm, pw / page_w_mm, ph / page_h_mm])
     ax.set_xlim(0, W); ax.set_ylim(0, H); ax.axis("off")
     ax.add_patch(Rectangle((0, 0), W, H, fc="white", ec="none", zorder=0))
 

@@ -14,7 +14,7 @@ contact:
 aliases:
   - "kalikhakkin"
   - "Калихаккин"
-folder: "D:\\PARA\\2-Areas\\Бизнес\\Компаниуд\\Kalikhakkin"
+folder: "D:\\PARA\\2-Areas\\Бизнес\\Бусад компаниуд\\Kalikhakkin"
 up: "[[03-Areas/Business/companies/README]]"
 related:
   - "[[04-Resources/references/WeChat файлын PARA индекс]] — материалыг D:\\TENDER-ээс энд зөөсөн"
@@ -24,7 +24,7 @@ related:
 
 ## For future agent
 
-Mugi 2026-11-10-нд «тусдаа компани болгож бүртгэнэ» гэсэн. Материал нь `D:\TENDER\kalikhakkin`-д байсан (4 716 файл, 20 GB, сүүлд 2021-12-д өөрчлөгдсөн); одоо `D:\PARA\2-Areas\Бизнес\Компаниуд\Kalikhakkin`. Албан нэр, үйл ажиллагаа, Mugi-тэй ямар холбоотой нь TBD — хавтасны агуулгаас таамаглахгүй.
+Mugi 2026-11-10-нд «тусдаа компани болгож бүртгэнэ» гэсэн. Материал нь `D:\TENDER\kalikhakkin`-д байсан (4 716 файл, 20 GB, сүүлд 2021-12-д өөрчлөгдсөн); одоо `D:\PARA\2-Areas\Бизнес\Бусад компаниуд\Kalikhakkin` (2026-11-11: Mugi-ийн компани биш). Албан нэр, үйл ажиллагаа, Mugi-тэй ямар холбоотой нь TBD — хавтасны агуулгаас таамаглахгүй.
 
 ## Тухай
 

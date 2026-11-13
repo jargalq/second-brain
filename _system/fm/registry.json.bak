@@ -89,7 +89,6 @@
       "since": "2026-11-07"
     },
     "4e5c8b9f-b427-4c54-8a11-1a32d0952d89": {
-      "role": "project",
       "device": "PC",
       "title": "📁 Сүүж уул",
       "project": "suuzh-uul",
@@ -142,6 +141,136 @@
       "folder": "02-Projects/Ажил/Зунхуа инси куан ХХК",
       "group": "projects",
       "since": "2026-11-09"
+    },
+    "session_011THyf66PAPsjhUGS2P6pWy": {
+      "role": "project",
+      "project": "02-Projects/Гачууртын байшин/",
+      "device": "cloud",
+      "title": "📁 Гачууртын байшин",
+      "registered": "2026-11-11",
+      "by": "гараар (/fm:setup энэ сешнд суугаагүй)"
+    },
+    "7a126fea-f7ab-4838-ab2e-f690faacb169": {
+      "role": "architect",
+      "device": "PC",
+      "title": "Architect · PC",
+      "project": "architect",
+      "group": "development",
+      "since": "2026-11-11"
+    },
+    "b07a5e10-94ab-4247-9d19-04d3fb60a6d3": {
+      "role": "creative",
+      "device": "PC",
+      "title": "Creative Director · PC",
+      "project": "creative",
+      "group": "development",
+      "since": "2026-11-11"
+    },
+    "ab1be8cc-ebf2-49de-9921-c3d416562ce8": {
+      "role": "gtd",
+      "device": "PC",
+      "title": "GTD · PC",
+      "project": "gtd",
+      "group": "areas",
+      "since": "2026-11-11"
+    },
+    "8e62bb3f-d45c-4642-a5fe-2034ed35f8b8": {
+      "role": "finance",
+      "device": "PC",
+      "title": "Finance · PC",
+      "project": "finance",
+      "group": "areas",
+      "since": "2026-11-11",
+      "private": true
+    },
+    "4cdeb896-d370-4f6d-b35c-e03bdc6a8cc5": {
+      "role": "wiki",
+      "device": "PC",
+      "title": "Wiki · PC",
+      "project": "wiki",
+      "group": "resources",
+      "since": "2026-11-11"
+    },
+    "e505a869-eb41-440a-b855-6037322f27c9": {
+      "role": "context-engineer",
+      "device": "PC",
+      "title": "Context Engineer · PC",
+      "project": "context-engineer",
+      "group": "development",
+      "since": "2026-11-11"
+    },
+    "473fd3e8-7cb5-4e36-a9d3-5040c5277b61": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Зүүн наран",
+      "project": "zuun-naran",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК/Зүүн наран",
+      "group": "projects",
+      "since": "2026-11-11"
+    },
+    "5c561b86-469c-4486-ab10-77d92339640f": {
+      "role": "finance",
+      "device": "PC",
+      "title": "Finance · PC",
+      "project": "finance",
+      "group": "areas",
+      "since": "2026-11-12",
+      "private": true
+    },
+    "2abd08d9-d50e-4213-915c-9dc74d0c370e": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Зүүн наран",
+      "project": "zuun-naran",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК/Зүүн наран",
+      "group": "projects",
+      "since": "2026-11-12"
+    },
+    "4861bf96-8fe7-4687-95bd-1f7a9c015576": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Шүдэн уул ХХК",
+      "project": "shuden-uul",
+      "folder": "02-Projects/Ажил/Шүдэн уул ХХК",
+      "group": "projects",
+      "since": "2026-11-12"
+    },
+    "850e0a95-462b-4738-a5b6-88ef71431861": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Талын элч › Хүрэн уул",
+      "project": "talyn-elch",
+      "folder": "02-Projects/Ажил/Талын элч ХХК",
+      "group": "projects",
+      "since": "2026-11-12"
+    },
+    "434a79c1-2141-409a-aad8-53ec88cd7816": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Голден погада › УАТ 2027",
+      "project": "golden-pogada",
+      "baton": "golden-pogada-uat",
+      "folder": "02-Projects/Ажил/Голден погада ХХК",
+      "group": "projects",
+      "since": "2026-11-12"
+    },
+    "2bdb4c91-9eec-446e-9019-3de0274e9e3d": {
+      "role": "finance",
+      "device": "PC",
+      "title": "Finance · PC",
+      "project": "finance",
+      "group": "areas",
+      "since": "2026-11-13",
+      "private": true
+    },
+    "c511eba4-5b93-4d2e-bde3-c0a4f464dfeb": {
+      "role": "project",
+      "device": "PC",
+      "title": "📁 Хөхтойн ХХК",
+      "project": "khukhtoin",
+      "folder": "02-Projects/Ажил/Хөхтойн ХХК",
+      "group": "projects",
+      "since": "2026-11-13"
     }
   },
   "roles": {

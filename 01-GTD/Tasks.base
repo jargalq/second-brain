@@ -69,6 +69,7 @@ views:
       - file.basename
       - priority
       - project
+      - status
     columnSize:
       formula.owner_icon: 40
       file.basename: 500
@@ -154,7 +155,7 @@ views:
       - project
     columnSize:
       formula.owner_icon: 40
-      file.basename: 396
+      file.basename: 260
   - type: table
     name: Waiting On
     filters:
@@ -167,8 +168,6 @@ views:
       - due
       - formula.days_until_due
       - project
-    columnSize:
-      file.basename: 413
   - type: table
     name: Someday
     filters:
